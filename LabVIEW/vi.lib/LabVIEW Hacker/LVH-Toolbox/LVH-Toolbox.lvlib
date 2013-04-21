@@ -7,14 +7,14 @@
 	</Item>
 	<Item Name="Private" Type="Folder">
 		<Item Name="Type Defs" Type="Folder">
-			<Item Name="FP Data.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/LVH-Toolbox/Private/Type Defs/FP Data.ctl"/>
+			<Item Name="FP Data.ctl" Type="VI" URL="../Private/Type Defs/FP Data.ctl"/>
 		</Item>
-		<Item Name="Get Connector Pane Info.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/LVH-Toolbox/Private/Get Connector Pane Info.vi"/>
-		<Item Name="Move and Resize.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/LVH-Toolbox/Private/Move and Resize.vi"/>
-		<Item Name="Move Front Panel Objects.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/LVH-Toolbox/Private/Move Front Panel Objects.vi"/>
-		<Item Name="VI Ref Or Path.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/LVH-Toolbox/Private/VI Ref Or Path.vi"/>
+		<Item Name="Get Connector Pane Info.vi" Type="VI" URL="../Private/Get Connector Pane Info.vi"/>
+		<Item Name="Move and Resize.vi" Type="VI" URL="../Private/Move and Resize.vi"/>
+		<Item Name="Move Front Panel Objects.vi" Type="VI" URL="../Private/Move Front Panel Objects.vi"/>
+		<Item Name="VI Ref Or Path.vi" Type="VI" URL="../Private/VI Ref Or Path.vi"/>
 	</Item>
 	<Item Name="Public" Type="Folder">
-		<Item Name="Front Panel Clean Up.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/LVH-Toolbox/Public/Front Panel Clean Up.vi"/>
+		<Item Name="Front Panel Clean Up.vi" Type="VI" URL="../Public/Front Panel Clean Up.vi"/>
 	</Item>
 </Library>

@@ -14,7 +14,7 @@
 			<Item Name="AC_Dummy.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/LVH-Toolbox/Test Apps/AC_Dummy.vi"/>
 			<Item Name="AC_Dummy_bak.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/LVH-Toolbox/Test Apps/AC_Dummy_bak.vi"/>
 		</Item>
-		<Item Name="LVH-Toolbox.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Hacker/LVH-Toolbox/LVH-Toolbox.lvlib"/>
+		<Item Name="LVH-Toolbox.lvlib" Type="Library" URL="../LVH-Toolbox.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
