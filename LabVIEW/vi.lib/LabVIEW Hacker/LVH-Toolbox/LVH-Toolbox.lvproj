@@ -14,6 +14,12 @@
 			<Item Name="Test Apps" Type="Folder"/>
 			<Item Name="LVH-Build-Tools.lvlib" Type="Library" URL="../Build Tools/LVH-Build-Tools.lvlib"/>
 		</Item>
+		<Item Name="DokuWiki" Type="Folder">
+			<Item Name="Public" Type="Folder">
+				<Item Name="C Enum To DokuWiki Table.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/LVH-Toolbox/DokuWiki/Public/C Enum To DokuWiki Table.vi"/>
+			</Item>
+			<Item Name="LVH-DokuWiki.lvlib" Type="Library" URL="../DokuWiki/LVH-DokuWiki.lvlib"/>
+		</Item>
 		<Item Name="Front Panel Clean Up" Type="Folder">
 			<Item Name="LVH-FPCU.lvlib" Type="Library" URL="../Front Panel Clean Up/LVH-FPCU.lvlib"/>
 		</Item>
