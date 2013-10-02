@@ -15,13 +15,10 @@
 			<Item Name="LVH-Build-Tools.lvlib" Type="Library" URL="../Build Tools/LVH-Build-Tools.lvlib"/>
 		</Item>
 		<Item Name="DokuWiki" Type="Folder">
-			<Item Name="Public" Type="Folder">
-				<Item Name="C Enum To DokuWiki Table.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/LVH-Toolbox/DokuWiki/Public/C Enum To DokuWiki Table.vi"/>
-			</Item>
 			<Item Name="LVH-DokuWiki.lvlib" Type="Library" URL="../DokuWiki/LVH-DokuWiki.lvlib"/>
 		</Item>
 		<Item Name="Front Panel Clean Up" Type="Folder">
-			<Item Name="LVH-FPCU.lvlib" Type="Library" URL="../Front Panel Clean Up/LVH-FPCU.lvlib"/>
+			<Item Name="LVH-Front-Panel-Clean-Up.lvlib" Type="Library" URL="../Front Panel Clean Up/LVH-Front-Panel-Clean-Up.lvlib"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -52,8 +49,6 @@
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
-				<Item Name="QuickDrop Parse Plugin Variant.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/QuickDropSupport/QuickDrop Parse Plugin Variant.vi"/>
-				<Item Name="QuickDrop Plugin Data ver1.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/QuickDropSupport/QuickDrop Plugin Data ver1.ctl"/>
 				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>

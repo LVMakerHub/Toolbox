@@ -8,11 +8,9 @@
 	<Item Name="Private" Type="Folder">
 		<Item Name="Source Control Utils" Type="Folder">
 			<Item Name="Check For Hardlink.vi" Type="VI" URL="../Private/Source Control Utils/Check For Hardlink.vi"/>
-			<Item Name="Copy New Source To Install.vi" Type="VI" URL="../Private/Source Control Utils/Copy New Source To Install.vi"/>
 			<Item Name="Create Hard Link.vi" Type="VI" URL="../Private/Source Control Utils/Create Hard Link.vi"/>
 			<Item Name="Create Hard Links To Source.vi" Type="VI" URL="../Private/Source Control Utils/Create Hard Links To Source.vi"/>
 			<Item Name="Create Missing Install Folders.vi" Type="VI" URL="../Private/Source Control Utils/Create Missing Install Folders.vi"/>
-			<Item Name="Create Missing Source Folders.vi" Type="VI" URL="../Private/Source Control Utils/Create Missing Source Folders.vi"/>
 			<Item Name="Delete Install Files Missing From Source.vi" Type="VI" URL="../Private/Source Control Utils/Delete Install Files Missing From Source.vi"/>
 			<Item Name="Delete Source Files Missing From Install.vi" Type="VI" URL="../Private/Source Control Utils/Delete Source Files Missing From Install.vi"/>
 			<Item Name="Get All Installed Files.vi" Type="VI" URL="../Private/Source Control Utils/Get All Installed Files.vi"/>

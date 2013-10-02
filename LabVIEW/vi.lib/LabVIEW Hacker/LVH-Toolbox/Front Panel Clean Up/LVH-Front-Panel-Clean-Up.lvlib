@@ -4,9 +4,7 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Quick Drop Shortcuts" Type="Folder">
-		<Item Name="LVH-Toolbox" Type="Folder">
-			<Item Name="Front Panel Clean-Up.vi" Type="VI" URL="../../../../../resource/dialog/QuickDrop/plugins/LVH-Toolbox/Front Panel Clean-Up.vi"/>
-		</Item>
+		<Item Name="LVH-Toolbox" Type="Folder"/>
 	</Item>
 	<Item Name="Private" Type="Folder">
 		<Item Name="Type Defs" Type="Folder">
@@ -17,9 +15,9 @@
 		<Item Name="Move and Resize.vi" Type="VI" URL="../Private/Move and Resize.vi"/>
 		<Item Name="Move Front Panel Objects.vi" Type="VI" URL="../Private/Move Front Panel Objects.vi"/>
 		<Item Name="VI Ref Or Path.vi" Type="VI" URL="../Private/VI Ref Or Path.vi"/>
+		<Item Name="Reorder Connector Pane Object Refs.vi" Type="VI" URL="../Private/Reorder Connector Pane Object Refs.vi"/>
 	</Item>
 	<Item Name="Public" Type="Folder">
 		<Item Name="Front Panel Clean Up.vi" Type="VI" URL="../Public/Front Panel Clean Up.vi"/>
 	</Item>
-	<Item Name="Reorder Connector Pane Object Refs.vi" Type="VI" URL="../Private/Reorder Connector Pane Object Refs.vi"/>
 </Library>
