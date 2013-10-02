@@ -1,6 +1,4 @@
-#### Starting Mass Compile: Wed, Oct 02, 2013 11:37:14 AM
+#### Starting Mass Compile: Wed, Oct 02, 2013 3:30:29 PM
   Directory: "C:\github\labviewhacker\LVH-Toolbox\LabVIEW"
-Search failed to find "LVH-FPCU.lvlib" previously from "C:\github\labviewhacker\LVH-Toolbox\LabVIEW\vi.lib\LabVIEW Hacker\LVH-Toolbox\Front Panel Clean Up\LVH-FPCU.lvlib"
-Search failed to find "LVH-FPCU.lvlib:Front Panel Clean Up.vi" previously from "C:\github\labviewhacker\LVH-Toolbox\LabVIEW\vi.lib\LabVIEW Hacker\LVH-Toolbox\Front Panel Clean Up\Public\Front Panel Clean Up.vi"
-  ### Bad VI:    "LVH-FPCU.lvlib:Front Panel Clean-Up.vi"	Path="C:\github\labviewhacker\LVH-Toolbox\LabVIEW\resource\dialog\QuickDrop\plugins\LVH-Toolbox\Front Panel Clean-Up.vi"
-#### Finished Mass Compile: Wed, Oct 02, 2013 11:37:18 AM
+CompileFile: skipping C:\Program Files (x86)\National Instruments\LabVIEW 2011\vi.lib\LabVIEW Hacker\LVH-Toolbox\Build Tools\Private\Type Defs\Install Configuration.ctl
+#### Finished Mass Compile: Wed, Oct 02, 2013 3:30:31 PM
