@@ -1,4 +1,3 @@
-#### Starting Mass Compile: Wed, Oct 02, 2013 3:30:29 PM
+#### Starting Mass Compile: Wed, Oct 02, 2013 4:07:58 PM
   Directory: "C:\github\labviewhacker\LVH-Toolbox\LabVIEW"
-CompileFile: skipping C:\Program Files (x86)\National Instruments\LabVIEW 2011\vi.lib\LabVIEW Hacker\LVH-Toolbox\Build Tools\Private\Type Defs\Install Configuration.ctl
-#### Finished Mass Compile: Wed, Oct 02, 2013 3:30:31 PM
+#### Finished Mass Compile: Wed, Oct 02, 2013 4:08:00 PM

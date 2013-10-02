@@ -9,6 +9,7 @@
 </Property>
 	<Item Name="Private" Type="Folder">
 		<Item Name="Source Control Utils" Type="Folder">
+			<Item Name="Backup Installed Source.vi" Type="VI" URL="../Private/Source Control Utils/Backup Installed Source.vi"/>
 			<Item Name="Check For Hardlink.vi" Type="VI" URL="../Private/Source Control Utils/Check For Hardlink.vi"/>
 			<Item Name="Create Hard Link.vi" Type="VI" URL="../Private/Source Control Utils/Create Hard Link.vi"/>
 			<Item Name="Create Hard Links To Source.vi" Type="VI" URL="../Private/Source Control Utils/Create Hard Links To Source.vi"/>
@@ -30,6 +31,7 @@
 		</Item>
 		<Item Name="Type Defs" Type="Folder">
 			<Item Name="Configuration.ctl" Type="VI" URL="../Private/Type Defs/Configuration.ctl"/>
+			<Item Name="Install Configuration.ctl" Type="VI" URL="../Private/Type Defs/Install Configuration.ctl"/>
 			<Item Name="Install State.ctl" Type="VI" URL="../Private/Type Defs/Install State.ctl"/>
 		</Item>
 	</Item>
