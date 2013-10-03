@@ -13,6 +13,8 @@
 		</Item>
 	</Item>
 	<Item Name="Public" Type="Folder">
+		<Item Name="Archive Directories.vi" Type="VI" URL="../Public/Archive Directories.vi"/>
+		<Item Name="Archive Directory.vi" Type="VI" URL="../Public/Archive Directory.vi"/>
 		<Item Name="Get LabVIEW Data Directory.vi" Type="VI" URL="../Get LabVIEW Data Directory.vi"/>
 		<Item Name="Get LabVIEW Install Paths.vi" Type="VI" URL="../Public/Get LabVIEW Install Paths.vi"/>
 	</Item>

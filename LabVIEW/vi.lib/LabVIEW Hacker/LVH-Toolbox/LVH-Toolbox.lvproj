@@ -86,6 +86,44 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="Install Source" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{6D691193-E844-4A7A-8018-D864BB7E2AD5}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{95CC4D96-75ED-49C9-987B-F9847BC09E9F}</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{8332FD4B-114A-40AD-A5DB-20F289B080FD}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Install Source</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../NI_AB_PROJECTNAME/Apps/Install Source</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{14FEF51D-5BB1-4581-AB50-4550AE1B7B64}</Property>
+				<Property Name="Destination[0].destName" Type="Str">LVH - Install Source.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../NI_AB_PROJECTNAME/Apps/Install Source/LVH - Install Source.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../NI_AB_PROJECTNAME/Apps/Install Source/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{441CBFDD-1049-464F-B083-173D0CEF8904}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LVH-Toolbox.lvlib/Build Tools/LVH-Build-Tools.lvlib/Public/Install Source.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">LabVIEW Hacker</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">LVH - Install Source
+
+www.labviewhacker.com</Property>
+				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
+				<Property Name="TgtF_internalName" Type="Str">Install Source</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2013 0</Property>
+				<Property Name="TgtF_productName" Type="Str">Install Source</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{EC2A5A47-5CDE-4CCE-8F63-03323E315255}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">LVH - Install Source.exe</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>
