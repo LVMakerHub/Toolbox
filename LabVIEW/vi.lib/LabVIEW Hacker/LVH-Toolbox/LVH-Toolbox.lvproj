@@ -12,6 +12,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="LVH-Toolbox.lvlib" Type="Library" URL="../LVH-Toolbox.lvlib"/>
+		<Item Name="Sync Source State.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/LVH-Toolbox/Build Tools/Private/Type Defs/Sync Source State.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -85,6 +86,7 @@
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Sync Source State.ctl" Type="VI" URL="../Build Tools/Private/Type Defs/Sync Source State.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Install Source" Type="EXE">

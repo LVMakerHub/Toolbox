@@ -33,6 +33,8 @@
 			<Item Name="Configuration.ctl" Type="VI" URL="../Private/Type Defs/Configuration.ctl"/>
 			<Item Name="Install Configuration.ctl" Type="VI" URL="../Private/Type Defs/Install Configuration.ctl"/>
 			<Item Name="Install State.ctl" Type="VI" URL="../Private/Type Defs/Install State.ctl"/>
+			<Item Name="Installed Project.ctl" Type="VI" URL="../Private/Type Defs/Installed Project.ctl"/>
+			<Item Name="Sync Source Configuration.ctl" Type="VI" URL="../Private/Type Defs/Sync Source Configuration.ctl"/>
 		</Item>
 	</Item>
 	<Item Name="Public" Type="Folder">
@@ -40,4 +42,5 @@
 		<Item Name="Sync Source.vi" Type="VI" URL="../Public/Sync Source.vi"/>
 		<Item Name="Uninstall Source.vi" Type="VI" URL="../Public/Uninstall Source.vi"/>
 	</Item>
+	<Item Name="Get Installed Projects.vi" Type="VI" URL="../Private/Source Control Utils/Get Installed Projects.vi"/>
 </Library>
