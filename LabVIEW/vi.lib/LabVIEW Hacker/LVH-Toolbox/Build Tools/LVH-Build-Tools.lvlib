@@ -8,6 +8,9 @@
 
 </Property>
 	<Item Name="Private" Type="Folder">
+		<Item Name="Configuration Windows" Type="Folder">
+			<Item Name="Sync Project Config.vi" Type="VI" URL="../Private/Configuration Windows/Sync Project Config.vi"/>
+		</Item>
 		<Item Name="Source Control Utils" Type="Folder">
 			<Item Name="Backup Installed Source.vi" Type="VI" URL="../Private/Source Control Utils/Backup Installed Source.vi"/>
 			<Item Name="Check For Hardlink.vi" Type="VI" URL="../Private/Source Control Utils/Check For Hardlink.vi"/>
@@ -20,6 +23,7 @@
 			<Item Name="Get Component Path.vi" Type="VI" URL="../Private/Source Control Utils/Get Component Path.vi"/>
 			<Item Name="Get Ignore Tokens.vi" Type="VI" URL="../Private/Source Control Utils/Get Ignore Tokens.vi"/>
 			<Item Name="Get Install Path From Source Path.vi" Type="VI" URL="../Private/Source Control Utils/Get Install Path From Source Path.vi"/>
+			<Item Name="Get Installed Projects.vi" Type="VI" URL="../Private/Source Control Utils/Get Installed Projects.vi"/>
 			<Item Name="Get Source Files And Folders.vi" Type="VI" URL="../Private/Source Control Utils/Get Source Files And Folders.vi"/>
 			<Item Name="Get Source Path From Install Path.vi" Type="VI" URL="../Private/Source Control Utils/Get Source Path From Install Path.vi"/>
 			<Item Name="Get Synced Projects.vi" Type="VI" URL="../Private/Source Control Utils/Get Synced Projects.vi"/>
@@ -29,18 +33,22 @@
 			<Item Name="Read Config File.vi" Type="VI" URL="../Private/Source Control Utils/Read Config File.vi"/>
 			<Item Name="Uninstall Components.vi" Type="VI" URL="../Private/Source Control Utils/Uninstall Components.vi"/>
 		</Item>
+		<Item Name="Test Apps" Type="Folder">
+			<Item Name="LVH-Test.ini" Type="Document" URL="/&lt;vilib&gt;/LabVIEW Hacker/LVH-Toolbox/Build Tools/Test Apps/LVH-Test.ini"/>
+			<Item Name="VI Path Test App.vi" Type="VI" URL="../Test Apps/VI Path Test App.vi"/>
+		</Item>
 		<Item Name="Type Defs" Type="Folder">
 			<Item Name="Configuration.ctl" Type="VI" URL="../Private/Type Defs/Configuration.ctl"/>
 			<Item Name="Install Configuration.ctl" Type="VI" URL="../Private/Type Defs/Install Configuration.ctl"/>
 			<Item Name="Install State.ctl" Type="VI" URL="../Private/Type Defs/Install State.ctl"/>
 			<Item Name="Installed Project.ctl" Type="VI" URL="../Private/Type Defs/Installed Project.ctl"/>
 			<Item Name="Sync Source Configuration.ctl" Type="VI" URL="../Private/Type Defs/Sync Source Configuration.ctl"/>
+			<Item Name="Sync Source State.ctl" Type="VI" URL="../Private/Type Defs/Sync Source State.ctl"/>
 		</Item>
 	</Item>
 	<Item Name="Public" Type="Folder">
-		<Item Name="Install Source.vi" Type="VI" URL="../Public/Install Source.vi"/>
-		<Item Name="Sync Source.vi" Type="VI" URL="../Public/Sync Source.vi"/>
-		<Item Name="Uninstall Source.vi" Type="VI" URL="../Public/Uninstall Source.vi"/>
+		<Item Name="Install Project.vi" Type="VI" URL="../Public/Install Project.vi"/>
+		<Item Name="Sync Project.vi" Type="VI" URL="../Public/Sync Project.vi"/>
+		<Item Name="Uninstall Project.vi" Type="VI" URL="../Public/Uninstall Project.vi"/>
 	</Item>
-	<Item Name="Get Installed Projects.vi" Type="VI" URL="../Private/Source Control Utils/Get Installed Projects.vi"/>
 </Library>

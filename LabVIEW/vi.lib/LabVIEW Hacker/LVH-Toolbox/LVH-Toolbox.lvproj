@@ -12,7 +12,6 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="LVH-Toolbox.lvlib" Type="Library" URL="../LVH-Toolbox.lvlib"/>
-		<Item Name="Sync Source State.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/LVH-Toolbox/Build Tools/Private/Type Defs/Sync Source State.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -77,6 +76,9 @@
 				<Item Name="Add File to Zip.vi" Type="VI" URL="/&lt;vilib&gt;/zip/Add File to Zip.vi"/>
 				<Item Name="PathToUNIXPathString.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/PathToUNIXPathString.vi"/>
 				<Item Name="Close Zip File.vi" Type="VI" URL="/&lt;vilib&gt;/zip/Close Zip File.vi"/>
+				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
+				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
+				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="QuickDrop Parse Plugin Variant.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/QuickDropSupport/QuickDrop Parse Plugin Variant.vi"/>
 				<Item Name="QuickDrop Plugin Data ver1.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/QuickDropSupport/QuickDrop Plugin Data ver1.ctl"/>
 			</Item>
@@ -86,45 +88,83 @@
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Sync Source State.ctl" Type="VI" URL="../Build Tools/Private/Type Defs/Sync Source State.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="Install Source" Type="EXE">
+			<Item Name="Install Project" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{6D691193-E844-4A7A-8018-D864BB7E2AD5}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{95CC4D96-75ED-49C9-987B-F9847BC09E9F}</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{8332FD4B-114A-40AD-A5DB-20F289B080FD}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Install Source</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Install Project</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../NI_AB_PROJECTNAME/Apps/Install Source</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../NI_AB_PROJECTNAME/Apps/Install Project</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{14FEF51D-5BB1-4581-AB50-4550AE1B7B64}</Property>
-				<Property Name="Destination[0].destName" Type="Str">LVH - Install Source.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../NI_AB_PROJECTNAME/Apps/Install Source/LVH - Install Source.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">LVH - Install Project.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../NI_AB_PROJECTNAME/Apps/Install Project/LVH - Install Project.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../NI_AB_PROJECTNAME/Apps/Install Source/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../NI_AB_PROJECTNAME/Apps/Install Project/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{441CBFDD-1049-464F-B083-173D0CEF8904}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{038E39C6-223C-4ED7-A304-DBEBEE40EA1B}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LVH-Toolbox.lvlib/Build Tools/LVH-Build-Tools.lvlib/Public/Install Source.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LVH-Toolbox.lvlib/Build Tools/LVH-Build-Tools.lvlib/Public/Install Project.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/LVH-Toolbox.lvlib</Property>
+				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[2].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
 				<Property Name="TgtF_companyName" Type="Str">LabVIEW Hacker</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">LVH - Install Source
+				<Property Name="TgtF_fileDescription" Type="Str">LVH - Install Project
 
 www.labviewhacker.com</Property>
 				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
-				<Property Name="TgtF_internalName" Type="Str">Install Source</Property>
+				<Property Name="TgtF_internalName" Type="Str">Install Project</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2013 0</Property>
-				<Property Name="TgtF_productName" Type="Str">Install Source</Property>
+				<Property Name="TgtF_productName" Type="Str">Install Project</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{EC2A5A47-5CDE-4CCE-8F63-03323E315255}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">LVH - Install Source.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">LVH - Install Project.exe</Property>
+			</Item>
+			<Item Name="Sync Project" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{91D4E282-10E4-4380-AE60-C97AD826EEC6}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{4958277E-E39A-4ABA-937F-0C3B3CA0221B}</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{BDE0F3C7-6136-4026-A8D9-3DE48D389076}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Sync Project</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../NI_AB_PROJECTNAME/Apps/Sync Project</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{E9D6C6C4-2C78-4DB0-8FBE-C90752FFB6FA}</Property>
+				<Property Name="Destination[0].destName" Type="Str">LVH-Sync Project.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../NI_AB_PROJECTNAME/Apps/Sync Project/LVH-Sync Project.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../NI_AB_PROJECTNAME/Apps/Sync Project/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{038E39C6-223C-4ED7-A304-DBEBEE40EA1B}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LVH-Toolbox.lvlib/Build Tools/LVH-Build-Tools.lvlib/Public/Sync Project.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">0</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Sync Project</Property>
+				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
+				<Property Name="TgtF_internalName" Type="Str">Sync Project</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2013 0</Property>
+				<Property Name="TgtF_productName" Type="Str">Sync Project</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{D70C0162-D02C-4631-957E-306A360CB110}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">LVH-Sync Project.exe</Property>
 			</Item>
 		</Item>
 	</Item>
