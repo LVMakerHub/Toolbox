@@ -31,17 +31,16 @@
 			<Item Name="Ignore Files.vi" Type="VI" URL="../Private/Source Control Utils/Ignore Files.vi"/>
 			<Item Name="Mass Compile Source.vi" Type="VI" URL="../Private/Source Control Utils/Mass Compile Source.vi"/>
 			<Item Name="Read Config File.vi" Type="VI" URL="../Private/Source Control Utils/Read Config File.vi"/>
+			<Item Name="Sync Project Load Config.vi" Type="VI" URL="../Private/Source Control Utils/Sync Project Load Config.vi"/>
+			<Item Name="Sync Project Save Config.vi" Type="VI" URL="../Private/Source Control Utils/Sync Project Save Config.vi"/>
 			<Item Name="Uninstall Components.vi" Type="VI" URL="../Private/Source Control Utils/Uninstall Components.vi"/>
-		</Item>
-		<Item Name="Test Apps" Type="Folder">
-			<Item Name="LVH-Test.ini" Type="Document" URL="/&lt;vilib&gt;/LabVIEW Hacker/LVH-Toolbox/Build Tools/Test Apps/LVH-Test.ini"/>
-			<Item Name="VI Path Test App.vi" Type="VI" URL="../Test Apps/VI Path Test App.vi"/>
 		</Item>
 		<Item Name="Type Defs" Type="Folder">
 			<Item Name="Configuration.ctl" Type="VI" URL="../Private/Type Defs/Configuration.ctl"/>
 			<Item Name="Install Configuration.ctl" Type="VI" URL="../Private/Type Defs/Install Configuration.ctl"/>
 			<Item Name="Install State.ctl" Type="VI" URL="../Private/Type Defs/Install State.ctl"/>
 			<Item Name="Installed Project.ctl" Type="VI" URL="../Private/Type Defs/Installed Project.ctl"/>
+			<Item Name="Sync Project Config State.ctl" Type="VI" URL="../Private/Type Defs/Sync Project Config State.ctl"/>
 			<Item Name="Sync Source Configuration.ctl" Type="VI" URL="../Private/Type Defs/Sync Source Configuration.ctl"/>
 			<Item Name="Sync Source State.ctl" Type="VI" URL="../Private/Type Defs/Sync Source State.ctl"/>
 		</Item>

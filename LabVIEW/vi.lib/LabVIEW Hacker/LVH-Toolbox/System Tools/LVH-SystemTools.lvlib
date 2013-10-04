@@ -15,8 +15,11 @@
 	<Item Name="Public" Type="Folder">
 		<Item Name="Archive Directories.vi" Type="VI" URL="../Public/Archive Directories.vi"/>
 		<Item Name="Archive Directory.vi" Type="VI" URL="../Public/Archive Directory.vi"/>
-		<Item Name="Get LabVIEW Data Directory.vi" Type="VI" URL="../Get LabVIEW Data Directory.vi"/>
+		<Item Name="Build Google Campaign URL.vi" Type="VI" URL="../Public/Build Google Campaign URL.vi"/>
+		<Item Name="Get LabVIEW Data Directory.vi" Type="VI" URL="../Public/Get LabVIEW Data Directory.vi"/>
 		<Item Name="Get LabVIEW Install Paths.vi" Type="VI" URL="../Public/Get LabVIEW Install Paths.vi"/>
+		<Item Name="Get Main Path.vi" Type="VI" URL="../Public/Get Main Path.vi"/>
+		<Item Name="Open Google Campaign URL.vi" Type="VI" URL="../Public/Open Google Campaign URL.vi"/>
 		<Item Name="Set FP Origin.vi" Type="VI" URL="../Public/Set FP Origin.vi"/>
 	</Item>
 	<Item Name="Test Apps" Type="Folder"/>
