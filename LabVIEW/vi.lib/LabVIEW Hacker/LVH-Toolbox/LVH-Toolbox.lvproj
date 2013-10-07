@@ -122,7 +122,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../NI_AB_PROJECTNAME/Apps/Install Project/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{038E39C6-223C-4ED7-A304-DBEBEE40EA1B}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{1AA780FC-2484-4D7A-9CA0-9D57187C4248}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LVH-Toolbox.lvlib/Build Tools/LVH-Build-Tools.lvlib/Public/Install Project.vi</Property>
