@@ -13,6 +13,9 @@
 		</Item>
 	</Item>
 	<Item Name="Public" Type="Folder">
+		<Item Name="String Tools" Type="Folder">
+			<Item Name="Trim Prefix.vi" Type="VI" URL="../Public/String Tools/Trim Prefix.vi"/>
+		</Item>
 		<Item Name="Archive Directories.vi" Type="VI" URL="../Public/Archive Directories.vi"/>
 		<Item Name="Archive Directory.vi" Type="VI" URL="../Public/Archive Directory.vi"/>
 		<Item Name="Build Google Campaign URL.vi" Type="VI" URL="../Public/Build Google Campaign URL.vi"/>
