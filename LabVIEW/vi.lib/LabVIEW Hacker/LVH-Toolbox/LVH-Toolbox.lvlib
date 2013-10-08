@@ -11,6 +11,19 @@
 	<Item Name="Front Panel Clean Up" Type="Folder">
 		<Item Name="LVH-Front-Panel-Clean-Up.lvlib" Type="Library" URL="../Front Panel Clean Up/LVH-Front-Panel-Clean-Up.lvlib"/>
 	</Item>
+	<Item Name="Images" Type="Folder">
+		<Item Name="Build Tools" Type="Folder">
+			<Item Name="Icons" Type="Folder">
+				<Item Name="Build Tool Icons.pdn" Type="Document" URL="../Images/Icons/Build Tool Icons.pdn"/>
+				<Item Name="Install Project.ico" Type="Document" URL="../Images/Icons/Install Project.ico"/>
+				<Item Name="Install Project.png" Type="Document" URL="../Images/Icons/Install Project.png"/>
+				<Item Name="Sync Project.ico" Type="Document" URL="../Images/Icons/Sync Project.ico"/>
+				<Item Name="Sync Project.png" Type="Document" URL="../Images/Icons/Sync Project.png"/>
+				<Item Name="Uninstall Project.ico" Type="Document" URL="../Images/Icons/Uninstall Project.ico"/>
+				<Item Name="Uninstall Project.png" Type="Document" URL="../Images/Icons/Uninstall Project.png"/>
+			</Item>
+		</Item>
+	</Item>
 	<Item Name="System Tools" Type="Folder">
 		<Item Name="LVH-SystemTools.lvlib" Type="Library" URL="../System Tools/LVH-SystemTools.lvlib"/>
 	</Item>
