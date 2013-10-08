@@ -13,6 +13,9 @@
 		</Item>
 	</Item>
 	<Item Name="Public" Type="Folder">
+		<Item Name="Path" Type="Folder">
+			<Item Name="Strip Path To Exe.vi" Type="VI" URL="../Public/Path Tools/Strip Path To Exe.vi"/>
+		</Item>
 		<Item Name="String Tools" Type="Folder">
 			<Item Name="Trim Prefix.vi" Type="VI" URL="../Public/String Tools/Trim Prefix.vi"/>
 		</Item>
