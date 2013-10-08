@@ -122,7 +122,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/github/labviewhacker/LVH-Builds/NI_AB_PROJECTNAME/Build Tools/Install Project/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{2C311AC6-CF77-4FA1-AEF6-76FAC5A37C52}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{48746F19-BB97-4F29-B8D0-F3197D981BDA}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LVH-Toolbox.lvlib/Build Tools/LVH-Build-Tools.lvlib/Public/Install Project.vi</Property>
@@ -132,7 +132,10 @@
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/LVH-Toolbox.lvlib</Property>
 				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[2].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/LVH-Toolbox.lvlib/System Tools/LVH-SystemTools.lvlib/Public/Mass Compile Helper.vi</Property>
+				<Property Name="Source[3].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">4</Property>
 				<Property Name="TgtF_companyName" Type="Str">LabVIEW Hacker</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">LVH - Install Project
 
@@ -165,7 +168,7 @@ http://labviewhacker.com/doku.php?id=libraries:lvh_build-tools:lvh_build-tools</
 				<Property Name="Destination[1].path" Type="Path">/C/github/labviewhacker/LVH-Builds/NI_AB_PROJECTNAME/Build Tools/Sync Project/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{2C311AC6-CF77-4FA1-AEF6-76FAC5A37C52}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{6DC0D8CD-45FC-4832-9479-F094A336BB3B}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LVH-Toolbox.lvlib/Build Tools/LVH-Build-Tools.lvlib/Public/Install Project.vi</Property>
@@ -199,7 +202,11 @@ http://labviewhacker.com/doku.php?id=libraries:lvh_build-tools:lvh_build-tools</
 				<Property Name="Destination[1].parent" Type="Str">{FAF23B6B-0911-4265-A0D9-BAE0C49F6D16}</Property>
 				<Property Name="Destination[1].tag" Type="Str">{4B126CE6-0A1A-4AEA-8E39-1336E883D42D}</Property>
 				<Property Name="Destination[1].type" Type="Str">userFolder</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Destination[2].name" Type="Str">common</Property>
+				<Property Name="Destination[2].parent" Type="Str">{4B126CE6-0A1A-4AEA-8E39-1336E883D42D}</Property>
+				<Property Name="Destination[2].tag" Type="Str">{4B9BA99C-AF20-41AA-B3FA-8FE1F913A98C}</Property>
+				<Property Name="Destination[2].type" Type="Str">userFolder</Property>
+				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="DistPart[0].flavorID" Type="Str">DefaultFull</Property>
 				<Property Name="DistPart[0].productID" Type="Str">{1D78A81A-58D9-46F7-BFF6-ADF7247803F9}</Property>
 				<Property Name="DistPart[0].productName" Type="Str">NI LabVIEW Run-Time Engine 2011 SP1</Property>
@@ -209,7 +216,7 @@ http://labviewhacker.com/doku.php?id=libraries:lvh_build-tools:lvh_build-tools</
 				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
 				<Property Name="INST_buildLocation" Type="Path">/C/github/labviewhacker/LVH-Builds/Build Tools</Property>
 				<Property Name="INST_buildSpecName" Type="Str">Build Tools</Property>
-				<Property Name="INST_defaultDir" Type="Str">{FAF23B6B-0911-4265-A0D9-BAE0C49F6D16}</Property>
+				<Property Name="INST_defaultDir" Type="Str">{4B126CE6-0A1A-4AEA-8E39-1336E883D42D}</Property>
 				<Property Name="INST_productName" Type="Str">LVH - Build Tools</Property>
 				<Property Name="INST_productVersion" Type="Str">1.0.0</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
@@ -246,11 +253,14 @@ http://labviewhacker.com/doku.php?id=libraries:lvh_build-tools:lvh_build-tools</
 				<Property Name="Source[1].File[0].Shortcut[0].subDir" Type="Str">LVH - Build Tools</Property>
 				<Property Name="Source[1].File[0].ShortcutCount" Type="Int">1</Property>
 				<Property Name="Source[1].File[0].tag" Type="Str">{32BDEF81-3D39-44C9-AB5C-B8377C2D47B2}</Property>
-				<Property Name="Source[1].FileCount" Type="Int">1</Property>
 				<Property Name="Source[1].name" Type="Str">Sync Project</Property>
 				<Property Name="Source[1].tag" Type="Ref">/My Computer/Build Specifications/Sync Project</Property>
 				<Property Name="Source[1].type" Type="Str">EXE</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="Source[2].dest" Type="Str">{4B9BA99C-AF20-41AA-B3FA-8FE1F913A98C}</Property>
+				<Property Name="Source[2].name" Type="Str">Mass Compile Helper.vi</Property>
+				<Property Name="Source[2].tag" Type="Ref">/My Computer/LVH-Toolbox.lvlib/System Tools/LVH-SystemTools.lvlib/Public/Mass Compile Helper.vi</Property>
+				<Property Name="Source[2].type" Type="Str">File</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
 			</Item>
 		</Item>
 	</Item>

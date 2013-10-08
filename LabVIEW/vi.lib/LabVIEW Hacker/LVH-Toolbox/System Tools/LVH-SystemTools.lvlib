@@ -25,6 +25,7 @@
 		<Item Name="Get LabVIEW Data Directory.vi" Type="VI" URL="../Public/Get LabVIEW Data Directory.vi"/>
 		<Item Name="Get LabVIEW Install Paths.vi" Type="VI" URL="../Public/Get LabVIEW Install Paths.vi"/>
 		<Item Name="Get Main Path.vi" Type="VI" URL="../Public/Get Main Path.vi"/>
+		<Item Name="Mass Compile Helper.vi" Type="VI" URL="../Public/Mass Compile Helper.vi"/>
 		<Item Name="Open Google Campaign URL.vi" Type="VI" URL="../Public/Open Google Campaign URL.vi"/>
 		<Item Name="Set FP Origin.vi" Type="VI" URL="../Public/Set FP Origin.vi"/>
 	</Item>
