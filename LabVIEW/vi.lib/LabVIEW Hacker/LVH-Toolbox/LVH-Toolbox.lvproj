@@ -170,7 +170,7 @@ http://labviewhacker.com/doku.php?id=libraries:lvh_build-tools:lvh_build-tools</
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/LVH-Toolbox.lvlib/Images/Build Tools/Icons/Sync Project.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{BA2D7B59-09E0-449A-A094-6C35BF895D85}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E3E542DD-E153-413C-B78D-D1EEDF9FFB11}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LVH-Toolbox.lvlib/Build Tools/LVH-Build-Tools.lvlib/Public/Install Project.vi</Property>
@@ -265,8 +265,6 @@ http://labviewhacker.com/doku.php?id=libraries:lvh_build-tools:lvh_build-tools</
 				<Property Name="SourceCount" Type="Int">3</Property>
 			</Item>
 			<Item Name="Build Tools - Lite" Type="Installer">
-				<Property Name="AB_Class_Path" Type="Path">/C/Program Files/National Instruments/LabVIEW 2011/vi.lib/AppBuilder/IB_Classes/MSI/IB_MSI.lvclass</Property>
-				<Property Name="AB_UIClass_Path" Type="Path">/C/Program Files/National Instruments/LabVIEW 2011/vi.lib/AppBuilder/IB_Classes/Installer/UI/AB_UI_Frmwk_Installer.lvclass</Property>
 				<Property Name="Destination[0].name" Type="Str">LabVIEW Hacker</Property>
 				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
 				<Property Name="Destination[0].tag" Type="Str">{FAF23B6B-0911-4265-A0D9-BAE0C49F6D16}</Property>
