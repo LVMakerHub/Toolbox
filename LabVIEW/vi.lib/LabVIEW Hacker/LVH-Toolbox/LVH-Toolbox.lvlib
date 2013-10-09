@@ -27,4 +27,5 @@
 	<Item Name="System Tools" Type="Folder">
 		<Item Name="LVH-SystemTools.lvlib" Type="Library" URL="../System Tools/LVH-SystemTools.lvlib"/>
 	</Item>
+	<Item Name="License.txt" Type="Document" URL="../../../../../License.txt"/>
 </Library>
