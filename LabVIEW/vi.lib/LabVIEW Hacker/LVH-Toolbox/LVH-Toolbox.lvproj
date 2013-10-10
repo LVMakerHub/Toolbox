@@ -123,7 +123,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/LVH-Toolbox.lvlib/Images/Build Tools/Icons/Install Project.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{FF9DDA4A-7A63-40E3-A047-D49B5ADD8373}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{258121DF-00B7-432E-B3FD-CD37FD220322}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LVH-Toolbox.lvlib/Build Tools/LVH-Build-Tools.lvlib/Public/Install Project.vi</Property>
@@ -170,7 +170,7 @@ http://labviewhacker.com/doku.php?id=libraries:lvh_build-tools:lvh_build-tools</
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/LVH-Toolbox.lvlib/Images/Build Tools/Icons/Sync Project.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{FF9DDA4A-7A63-40E3-A047-D49B5ADD8373}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{8406898B-DAF4-40E9-AD21-86FF06403B8B}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LVH-Toolbox.lvlib/Build Tools/LVH-Build-Tools.lvlib/Public/Install Project.vi</Property>
@@ -209,23 +209,19 @@ http://labviewhacker.com/doku.php?id=libraries:lvh_build-tools:lvh_build-tools</
 				<Property Name="Destination[2].tag" Type="Str">{4B9BA99C-AF20-41AA-B3FA-8FE1F913A98C}</Property>
 				<Property Name="Destination[2].type" Type="Str">userFolder</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="DistPart[0].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[0].productID" Type="Str">{1D78A81A-58D9-46F7-BFF6-ADF7247803F9}</Property>
-				<Property Name="DistPart[0].productName" Type="Str">NI LabVIEW Run-Time Engine 2011 SP1</Property>
-				<Property Name="DistPart[0].upgradeCode" Type="Str">{6AD6C111-233B-4924-A3BF-E4813FE23C7A}</Property>
-				<Property Name="DistPartCount" Type="Int">1</Property>
 				<Property Name="INST_author" Type="Str">0</Property>
 				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
 				<Property Name="INST_buildLocation" Type="Path">/C/github/labviewhacker/LVH-Builds/LVH-Toolbox/Build Tools/LVH Build Tools</Property>
 				<Property Name="INST_buildSpecName" Type="Str">Build Tools</Property>
 				<Property Name="INST_defaultDir" Type="Str">{4B126CE6-0A1A-4AEA-8E39-1336E883D42D}</Property>
 				<Property Name="INST_productName" Type="Str">LVH - Build Tools</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.6</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.8</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">11018015</Property>
 				<Property Name="MSI_arpCompany" Type="Str">LabVIEW Hacker</Property>
 				<Property Name="MSI_arpContact" Type="Str">labviewhacker@gmail.com</Property>
 				<Property Name="MSI_arpURL" Type="Str">www.labviewhacker.com</Property>
+				<Property Name="MSI_bannerImageID" Type="Ref">/My Computer/LVH-Toolbox.lvlib/Images/Build Tools/LVH Build Tools Banner.bmp</Property>
 				<Property Name="MSI_distID" Type="Str">{475A7710-B856-4D71-B66F-DFC34F2C8E0F}</Property>
 				<Property Name="MSI_osCheck" Type="Int">0</Property>
 				<Property Name="MSI_upgradeCode" Type="Str">{987F7804-3DE1-4B5F-95CB-ED4A53045128}</Property>
@@ -239,74 +235,6 @@ http://labviewhacker.com/doku.php?id=libraries:lvh_build-tools:lvh_build-tools</
 				<Property Name="Source[0].File[0].dest" Type="Str">{4B126CE6-0A1A-4AEA-8E39-1336E883D42D}</Property>
 				<Property Name="Source[0].File[0].name" Type="Str">LVH - Install Project.exe</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">1</Property>
-				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">LVH - Install Project</Property>
-				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">LVH - Build Tools</Property>
-				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">1</Property>
-				<Property Name="Source[0].File[0].tag" Type="Str">{EC2A5A47-5CDE-4CCE-8F63-03323E315255}</Property>
-				<Property Name="Source[0].FileCount" Type="Int">1</Property>
-				<Property Name="Source[0].name" Type="Str">Install Project</Property>
-				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/Install Project</Property>
-				<Property Name="Source[0].type" Type="Str">EXE</Property>
-				<Property Name="Source[1].dest" Type="Str">{4B126CE6-0A1A-4AEA-8E39-1336E883D42D}</Property>
-				<Property Name="Source[1].File[0].dest" Type="Str">{4B126CE6-0A1A-4AEA-8E39-1336E883D42D}</Property>
-				<Property Name="Source[1].File[0].name" Type="Str">LVH - Sync Project.exe</Property>
-				<Property Name="Source[1].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
-				<Property Name="Source[1].File[0].Shortcut[0].name" Type="Str">LVH - Sync Project</Property>
-				<Property Name="Source[1].File[0].Shortcut[0].subDir" Type="Str">LVH - Build Tools</Property>
-				<Property Name="Source[1].File[0].tag" Type="Str">{32BDEF81-3D39-44C9-AB5C-B8377C2D47B2}</Property>
-				<Property Name="Source[1].FileCount" Type="Int">1</Property>
-				<Property Name="Source[1].name" Type="Str">Sync Project</Property>
-				<Property Name="Source[1].tag" Type="Ref">/My Computer/Build Specifications/Sync Project</Property>
-				<Property Name="Source[1].type" Type="Str">EXE</Property>
-				<Property Name="Source[2].dest" Type="Str">{4B9BA99C-AF20-41AA-B3FA-8FE1F913A98C}</Property>
-				<Property Name="Source[2].name" Type="Str">Mass Compile Helper.vi</Property>
-				<Property Name="Source[2].tag" Type="Ref">/My Computer/LVH-Toolbox.lvlib/System Tools/LVH-SystemTools.lvlib/Public/Mass Compile Helper.vi</Property>
-				<Property Name="Source[2].type" Type="Str">File</Property>
-				<Property Name="Source[3].dest" Type="Str">{4B126CE6-0A1A-4AEA-8E39-1336E883D42D}</Property>
-				<Property Name="Source[3].name" Type="Str">License.txt</Property>
-				<Property Name="Source[3].tag" Type="Ref">/My Computer/LVH-Toolbox.lvlib/License.txt</Property>
-				<Property Name="Source[3].type" Type="Str">File</Property>
-				<Property Name="SourceCount" Type="Int">4</Property>
-			</Item>
-			<Item Name="Build Tools - Lite" Type="Installer">
-				<Property Name="Destination[0].name" Type="Str">LabVIEW Hacker</Property>
-				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
-				<Property Name="Destination[0].tag" Type="Str">{FAF23B6B-0911-4265-A0D9-BAE0C49F6D16}</Property>
-				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[1].name" Type="Str">Build Tools</Property>
-				<Property Name="Destination[1].parent" Type="Str">{FAF23B6B-0911-4265-A0D9-BAE0C49F6D16}</Property>
-				<Property Name="Destination[1].tag" Type="Str">{4B126CE6-0A1A-4AEA-8E39-1336E883D42D}</Property>
-				<Property Name="Destination[1].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[2].name" Type="Str">common</Property>
-				<Property Name="Destination[2].parent" Type="Str">{4B126CE6-0A1A-4AEA-8E39-1336E883D42D}</Property>
-				<Property Name="Destination[2].tag" Type="Str">{4B9BA99C-AF20-41AA-B3FA-8FE1F913A98C}</Property>
-				<Property Name="Destination[2].type" Type="Str">userFolder</Property>
-				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="INST_author" Type="Str">0</Property>
-				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
-				<Property Name="INST_buildLocation" Type="Path">/C/github/labviewhacker/LVH-Builds/LVH-Toolbox/Build Tools/LVH Build Tools</Property>
-				<Property Name="INST_buildSpecName" Type="Str">Build Tools - Lite</Property>
-				<Property Name="INST_defaultDir" Type="Str">{4B126CE6-0A1A-4AEA-8E39-1336E883D42D}</Property>
-				<Property Name="INST_productName" Type="Str">LVH - Build Tools Lite</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.9</Property>
-				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
-				<Property Name="InstSpecVersion" Type="Str">11018015</Property>
-				<Property Name="MSI_arpCompany" Type="Str">LabVIEW Hacker</Property>
-				<Property Name="MSI_arpContact" Type="Str">labviewhacker@gmail.com</Property>
-				<Property Name="MSI_arpURL" Type="Str">www.labviewhacker.com</Property>
-				<Property Name="MSI_distID" Type="Str">{B47E0327-D2E8-4547-BCC1-017F08F87061}</Property>
-				<Property Name="MSI_osCheck" Type="Int">0</Property>
-				<Property Name="MSI_upgradeCode" Type="Str">{6ABF6314-17BA-466C-B26E-E6DE327C56C2}</Property>
-				<Property Name="MSI_windowMessage" Type="Str">LabVIEW Hacker Build Tools</Property>
-				<Property Name="MSI_windowTitle" Type="Str">LabVIEW Hacker Build Tools</Property>
-				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
-				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
-				<Property Name="RegDest[0].parentTag" Type="Str">2</Property>
-				<Property Name="RegDestCount" Type="Int">1</Property>
-				<Property Name="Source[0].dest" Type="Str">{4B126CE6-0A1A-4AEA-8E39-1336E883D42D}</Property>
-				<Property Name="Source[0].File[0].dest" Type="Str">{4B126CE6-0A1A-4AEA-8E39-1336E883D42D}</Property>
-				<Property Name="Source[0].File[0].name" Type="Str">LVH - Install Project.exe</Property>
-				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">LVH - Install Project</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">LVH - Build Tools</Property>
 				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">1</Property>

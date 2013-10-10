@@ -22,6 +22,8 @@
 				<Item Name="Uninstall Project.ico" Type="Document" URL="../Images/Icons/Uninstall Project.ico"/>
 				<Item Name="Uninstall Project.png" Type="Document" URL="../Images/Icons/Uninstall Project.png"/>
 			</Item>
+			<Item Name="LVH Build Tools Banner.bmp" Type="Document" URL="../Images/Installers/Build Tools/LVH Build Tools Banner.bmp"/>
+			<Item Name="LVH Build Tools Banner.png" Type="Document" URL="../Images/Installers/Build Tools/LVH Build Tools Banner.png"/>
 		</Item>
 	</Item>
 	<Item Name="System Tools" Type="Folder">
