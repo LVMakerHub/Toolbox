@@ -23,7 +23,23 @@
 				<Item Name="Uninstall Project.png" Type="Document" URL="../Images/Icons/Uninstall Project.png"/>
 			</Item>
 			<Item Name="LVH Build Tools Banner.bmp" Type="Document" URL="../Images/Installers/Build Tools/LVH Build Tools Banner.bmp"/>
-			<Item Name="LVH Build Tools Banner.png" Type="Document" URL="../Images/Installers/Build Tools/LVH Build Tools Banner.png"/>
+			<Item Name="LVH Build Tools Welcome Image.bmp" Type="Document" URL="../Images/Installers/Build Tools/LVH Build Tools Welcome Image.bmp"/>
+		</Item>
+		<Item Name="UI" Type="Folder">
+			<Item Name="Animations" Type="Folder">
+				<Item Name="Loading" Type="Folder">
+					<Item Name="Green Bars" Type="Folder">
+						<Item Name="1.png" Type="Document" URL="../Images/UI/Animations/Loading/Green Bars/1.png"/>
+						<Item Name="2.png" Type="Document" URL="../Images/UI/Animations/Loading/Green Bars/2.png"/>
+						<Item Name="3.png" Type="Document" URL="../Images/UI/Animations/Loading/Green Bars/3.png"/>
+						<Item Name="4.png" Type="Document" URL="../Images/UI/Animations/Loading/Green Bars/4.png"/>
+						<Item Name="5.png" Type="Document" URL="../Images/UI/Animations/Loading/Green Bars/5.png"/>
+						<Item Name="6.png" Type="Document" URL="../Images/UI/Animations/Loading/Green Bars/6.png"/>
+						<Item Name="7.png" Type="Document" URL="../Images/UI/Animations/Loading/Green Bars/7.png"/>
+						<Item Name="8.png" Type="Document" URL="../Images/UI/Animations/Loading/Green Bars/8.png"/>
+					</Item>
+				</Item>
+			</Item>
 		</Item>
 	</Item>
 	<Item Name="System Tools" Type="Folder">

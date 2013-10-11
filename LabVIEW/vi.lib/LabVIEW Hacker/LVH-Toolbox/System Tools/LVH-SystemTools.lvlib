@@ -9,7 +9,22 @@
 </Property>
 	<Item Name="Private" Type="Folder">
 		<Item Name="Type Defs" Type="Folder">
+			<Item Name="FGV States.ctl" Type="VI" URL="../Private/UI/Type Defs/FGV States.ctl"/>
 			<Item Name="Installed LabVIEW Version.ctl" Type="VI" URL="../Private/Type Defs/Installed LabVIEW Version.ctl"/>
+		</Item>
+		<Item Name="UI" Type="Folder">
+			<Item Name="Animations" Type="Folder">
+				<Item Name="Type Defs" Type="Folder">
+					<Item Name="Animation Config.ctl" Type="VI" URL="../Private/UI/Animations/Animation Config.ctl"/>
+					<Item Name="Animation.ctl" Type="VI" URL="../Private/UI/Animations/Animation.ctl"/>
+				</Item>
+				<Item Name="Animation.vi" Type="VI" URL="../Private/UI/Animations/Animation.vi"/>
+				<Item Name="Get Image Data.vi" Type="VI" URL="../Private/UI/Animations/Get Image Data.vi"/>
+				<Item Name="Green Bars.vi" Type="VI" URL="../Private/UI/Animations/Green Bars.vi"/>
+			</Item>
+			<Item Name="FGVs" Type="Folder">
+				<Item Name="Animation State.vi" Type="VI" URL="../Private/UI/FGVs/Animation State.vi"/>
+			</Item>
 		</Item>
 	</Item>
 	<Item Name="Public" Type="Folder">
@@ -18,6 +33,13 @@
 		</Item>
 		<Item Name="String Tools" Type="Folder">
 			<Item Name="Trim Prefix.vi" Type="VI" URL="../Public/String Tools/Trim Prefix.vi"/>
+		</Item>
+		<Item Name="UI" Type="Folder">
+			<Item Name="Animations" Type="Folder">
+				<Item Name="Load Animation.vi" Type="VI" URL="../Public/UI/Animations/Load Animation.vi"/>
+				<Item Name="Start Animation.vi" Type="VI" URL="../Public/UI/Animations/Start Animation.vi"/>
+				<Item Name="Stop Animation.vi" Type="VI" URL="../Public/UI/Animations/Stop Animation.vi"/>
+			</Item>
 		</Item>
 		<Item Name="Archive Directories.vi" Type="VI" URL="../Public/Archive Directories.vi"/>
 		<Item Name="Archive Directory.vi" Type="VI" URL="../Public/Archive Directory.vi"/>
@@ -28,6 +50,7 @@
 		<Item Name="Mass Compile Helper.vi" Type="VI" URL="../Public/Mass Compile Helper.vi"/>
 		<Item Name="Open Google Campaign URL.vi" Type="VI" URL="../Public/Open Google Campaign URL.vi"/>
 		<Item Name="Set FP Origin.vi" Type="VI" URL="../Public/Set FP Origin.vi"/>
+		<Item Name="Set FP Size.vi" Type="VI" URL="../Public/Set FP Size.vi"/>
 	</Item>
 	<Item Name="Test Apps" Type="Folder"/>
 </Library>
