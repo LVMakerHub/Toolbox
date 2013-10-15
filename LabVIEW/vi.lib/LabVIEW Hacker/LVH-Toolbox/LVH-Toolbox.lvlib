@@ -11,6 +11,9 @@
 	<Item Name="Front Panel Clean Up" Type="Folder">
 		<Item Name="LVH-Front-Panel-Clean-Up.lvlib" Type="Library" URL="../Front Panel Clean Up/LVH-Front-Panel-Clean-Up.lvlib"/>
 	</Item>
+	<Item Name="GUI Tools" Type="Folder">
+		<Item Name="GUI Tools.lvlib" Type="Library" URL="../GUI Tools/GUI Tools.lvlib"/>
+	</Item>
 	<Item Name="Images" Type="Folder">
 		<Item Name="Build Tools" Type="Folder">
 			<Item Name="Icons" Type="Folder">

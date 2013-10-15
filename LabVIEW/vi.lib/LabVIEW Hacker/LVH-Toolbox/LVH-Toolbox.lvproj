@@ -170,7 +170,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/LVH-Toolbox.lvlib/Images/Build Tools/Icons/Install Project.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{20C0CD56-6A50-4789-9968-D83FF867E543}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2EFC6FD3-4534-4F2A-B1AE-26CF7CDD3C26}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LVH-Toolbox.lvlib/Build Tools/LVH-Build-Tools.lvlib/Public/Install Project.vi</Property>
@@ -184,7 +184,7 @@
 				<Property Name="Source[3].itemID" Type="Ref">/My Computer/LVH-Toolbox.lvlib/System Tools/LVH-SystemTools.lvlib/Public/Mass Compile Helper.vi</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/LVH-Toolbox.lvlib/System Tools/LVH-SystemTools.lvlib/Private/UI/Animations/Animation.vi</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/LVH-Toolbox.lvlib/GUI Tools/GUI Tools.lvlib/GUI Tools/Private/Animations/Animation.vi</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">5</Property>
@@ -221,7 +221,7 @@ http://labviewhacker.com/doku.php?id=libraries:lvh_build-tools:lvh_build-tools</
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/LVH-Toolbox.lvlib/Images/Build Tools/Icons/Sync Project.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{20C0CD56-6A50-4789-9968-D83FF867E543}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{314A4CA8-08E5-4AC9-903D-CB377F8280BE}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LVH-Toolbox.lvlib/Build Tools/LVH-Build-Tools.lvlib/Public/Install Project.vi</Property>
@@ -234,16 +234,11 @@ http://labviewhacker.com/doku.php?id=libraries:lvh_build-tools:lvh_build-tools</
 				<Property Name="Source[3].itemID" Type="Ref">/My Computer/LVH-Toolbox.lvlib/Build Tools/LVH-Build-Tools.lvlib/Public/Sync Project.vi</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
-				<Property Name="Source[4].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/LVH-Toolbox.lvlib/Images</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/LVH-Toolbox.lvlib/GUI Tools/GUI Tools.lvlib/GUI Tools/Private/Animations/Animation.vi</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[4].type" Type="Str">Container</Property>
-				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/LVH-Toolbox.lvlib/System Tools/LVH-SystemTools.lvlib/Private/UI/Animations/Animation.vi</Property>
-				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[5].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">6</Property>
+				<Property Name="Source[4].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">5</Property>
 				<Property Name="TgtF_companyName" Type="Str">LabVIEW Hacker</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">LVH - Install Project
 
@@ -275,9 +270,9 @@ http://labviewhacker.com/doku.php?id=libraries:lvh_build-tools:lvh_build-tools</
 				<Property Name="INST_buildSpecName" Type="Str">Build Tools</Property>
 				<Property Name="INST_defaultDir" Type="Str">{4B126CE6-0A1A-4AEA-8E39-1336E883D42D}</Property>
 				<Property Name="INST_productName" Type="Str">LVH - Build Tools</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.31</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.44</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
-				<Property Name="InstSpecVersion" Type="Str">11018013</Property>
+				<Property Name="InstSpecVersion" Type="Str">11018015</Property>
 				<Property Name="MSI_arpCompany" Type="Str">LabVIEW Hacker</Property>
 				<Property Name="MSI_arpContact" Type="Str">labviewhacker@gmail.com</Property>
 				<Property Name="MSI_arpURL" Type="Str">www.labviewhacker.com</Property>
@@ -289,9 +284,42 @@ http://labviewhacker.com/doku.php?id=libraries:lvh_build-tools:lvh_build-tools</
 				<Property Name="MSI_windowMessage" Type="Str">na</Property>
 				<Property Name="MSI_windowTitle" Type="Str">na</Property>
 				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
-				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
-				<Property Name="RegDest[0].parentTag" Type="Str">2</Property>
-				<Property Name="RegDestCount" Type="Int">1</Property>
+				<Property Name="RegDest[0].dirTag" Type="Str">{FE950A66-6A4E-43EE-8ED0-AB814B0A711A}</Property>
+				<Property Name="RegDest[0].parentTag" Type="Str">1</Property>
+				<Property Name="RegDest[1].dirName" Type="Str">Microsoft</Property>
+				<Property Name="RegDest[1].dirTag" Type="Str">{90A7C243-F5E0-4A9F-9609-CF1FF2C45B4D}</Property>
+				<Property Name="RegDest[1].parentTag" Type="Str">{FE950A66-6A4E-43EE-8ED0-AB814B0A711A}</Property>
+				<Property Name="RegDest[2].dirName" Type="Str">Windows NT</Property>
+				<Property Name="RegDest[2].dirTag" Type="Str">{1ED791BF-8D53-4B8E-B2AE-FD37021752B3}</Property>
+				<Property Name="RegDest[2].parentTag" Type="Str">{90A7C243-F5E0-4A9F-9609-CF1FF2C45B4D}</Property>
+				<Property Name="RegDest[3].dirName" Type="Str">CurrentVersion</Property>
+				<Property Name="RegDest[3].dirTag" Type="Str">{A476F0B4-BEC1-4FD0-A3CD-904EA21889F7}</Property>
+				<Property Name="RegDest[3].parentTag" Type="Str">{1ED791BF-8D53-4B8E-B2AE-FD37021752B3}</Property>
+				<Property Name="RegDest[4].dirName" Type="Str">AppCompatFlags</Property>
+				<Property Name="RegDest[4].dirTag" Type="Str">{9C063135-BE64-41E6-B0D4-54C346681920}</Property>
+				<Property Name="RegDest[4].parentTag" Type="Str">{A476F0B4-BEC1-4FD0-A3CD-904EA21889F7}</Property>
+				<Property Name="RegDest[5].dirName" Type="Str">Layers</Property>
+				<Property Name="RegDest[5].dirTag" Type="Str">{92D438B7-455D-47F3-827D-5C3C94CA56AB}</Property>
+				<Property Name="RegDest[5].parentTag" Type="Str">{9C063135-BE64-41E6-B0D4-54C346681920}</Property>
+				<Property Name="RegDest[6].dirName" Type="Str">Software</Property>
+				<Property Name="RegDest[6].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
+				<Property Name="RegDest[6].parentTag" Type="Str">2</Property>
+				<Property Name="RegDestCount" Type="Int">7</Property>
+				<Property Name="RegGroup[0].dirTag" Type="Str">{92D438B7-455D-47F3-827D-5C3C94CA56AB}</Property>
+				<Property Name="RegGroup[0].RegData[0].data" Type="Str">~ RUNASADMIN</Property>
+				<Property Name="RegGroup[0].RegData[0].name" Type="Str">C:\Program Files\LabVIEW Hacker\Build Tools\LVH - Install Project.exe</Property>
+				<Property Name="RegGroup[0].RegData[0].type" Type="Str">String</Property>
+				<Property Name="RegGroup[0].RegData[1].data" Type="Str">~ RUNASADMIN</Property>
+				<Property Name="RegGroup[0].RegData[1].name" Type="Str">C:\Program Files\LabVIEW Hacker\Build Tools\LVH - Sync Project.exe</Property>
+				<Property Name="RegGroup[0].RegData[1].type" Type="Str">String</Property>
+				<Property Name="RegGroup[0].RegData[2].data" Type="Str">~ RUNASADMIN</Property>
+				<Property Name="RegGroup[0].RegData[2].name" Type="Str">C:\Program Files (x86)\LabVIEW Hacker\Build Tools\LVH - Install Project.exe</Property>
+				<Property Name="RegGroup[0].RegData[2].type" Type="Str">String</Property>
+				<Property Name="RegGroup[0].RegData[3].data" Type="Str">~ RUNASADMIN</Property>
+				<Property Name="RegGroup[0].RegData[3].name" Type="Str">C:\Program Files (x86)\LabVIEW Hacker\Build Tools\LVH - Sync Project.exe</Property>
+				<Property Name="RegGroup[0].RegData[3].type" Type="Str">String</Property>
+				<Property Name="RegGroup[0].RegDataCount" Type="Int">4</Property>
+				<Property Name="RegGroupCount" Type="Int">1</Property>
 				<Property Name="Source[0].dest" Type="Str">{4B126CE6-0A1A-4AEA-8E39-1336E883D42D}</Property>
 				<Property Name="Source[0].File[0].dest" Type="Str">{4B126CE6-0A1A-4AEA-8E39-1336E883D42D}</Property>
 				<Property Name="Source[0].File[0].name" Type="Str">LVH - Install Project.exe</Property>

@@ -9,22 +9,8 @@
 </Property>
 	<Item Name="Private" Type="Folder">
 		<Item Name="Type Defs" Type="Folder">
-			<Item Name="FGV States.ctl" Type="VI" URL="../Private/UI/Type Defs/FGV States.ctl"/>
+			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Installed LabVIEW Version.ctl" Type="VI" URL="../Private/Type Defs/Installed LabVIEW Version.ctl"/>
-		</Item>
-		<Item Name="UI" Type="Folder">
-			<Item Name="Animations" Type="Folder">
-				<Item Name="Type Defs" Type="Folder">
-					<Item Name="Animation Config.ctl" Type="VI" URL="../Private/UI/Animations/Animation Config.ctl"/>
-					<Item Name="Animation.ctl" Type="VI" URL="../Private/UI/Animations/Animation.ctl"/>
-				</Item>
-				<Item Name="Animation.vi" Type="VI" URL="../Private/UI/Animations/Animation.vi"/>
-				<Item Name="Get Image Data.vi" Type="VI" URL="../Private/UI/Animations/Get Image Data.vi"/>
-				<Item Name="Green Bars.vi" Type="VI" URL="../Private/UI/Animations/Green Bars.vi"/>
-			</Item>
-			<Item Name="FGVs" Type="Folder">
-				<Item Name="Animation State.vi" Type="VI" URL="../Private/UI/FGVs/Animation State.vi"/>
-			</Item>
 		</Item>
 	</Item>
 	<Item Name="Public" Type="Folder">
@@ -34,16 +20,10 @@
 		<Item Name="String Tools" Type="Folder">
 			<Item Name="Trim Prefix.vi" Type="VI" URL="../Public/String Tools/Trim Prefix.vi"/>
 		</Item>
-		<Item Name="UI" Type="Folder">
-			<Item Name="Animations" Type="Folder">
-				<Item Name="Load Animation.vi" Type="VI" URL="../Public/UI/Animations/Load Animation.vi"/>
-				<Item Name="Start Animation.vi" Type="VI" URL="../Public/UI/Animations/Start Animation.vi"/>
-				<Item Name="Stop Animation.vi" Type="VI" URL="../Public/UI/Animations/Stop Animation.vi"/>
-			</Item>
-		</Item>
 		<Item Name="Archive Directories.vi" Type="VI" URL="../Public/Archive Directories.vi"/>
 		<Item Name="Archive Directory.vi" Type="VI" URL="../Public/Archive Directory.vi"/>
 		<Item Name="Build Google Campaign URL.vi" Type="VI" URL="../Public/Build Google Campaign URL.vi"/>
+		<Item Name="Get AppData Path.vi" Type="VI" URL="../Public/Get AppData Path.vi"/>
 		<Item Name="Get LabVIEW Data Directory.vi" Type="VI" URL="../Public/Get LabVIEW Data Directory.vi"/>
 		<Item Name="Get LabVIEW Install Paths.vi" Type="VI" URL="../Public/Get LabVIEW Install Paths.vi"/>
 		<Item Name="Get Main Path.vi" Type="VI" URL="../Public/Get Main Path.vi"/>
