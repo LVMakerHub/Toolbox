@@ -45,6 +45,11 @@
 			</Item>
 		</Item>
 	</Item>
+	<Item Name="Installer Tools" Type="Folder">
+		<Item Name="Public" Type="Folder">
+			<Item Name="Make Directory Read-Only.bat" Type="Document" URL="../Installer Tools/Public/Make Directory Read-Only.bat"/>
+		</Item>
+	</Item>
 	<Item Name="System Tools" Type="Folder">
 		<Item Name="LVH-SystemTools.lvlib" Type="Library" URL="../System Tools/LVH-SystemTools.lvlib"/>
 	</Item>

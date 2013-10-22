@@ -118,7 +118,7 @@
 				<Property Name="Bld_excludedDirectory[0].pathType" Type="Str">relativeToAppDir</Property>
 				<Property Name="Bld_excludedDirectory[1]" Type="Path">resource/objmgr</Property>
 				<Property Name="Bld_excludedDirectory[1].pathType" Type="Str">relativeToAppDir</Property>
-				<Property Name="Bld_excludedDirectory[2]" Type="Path">/C/Users/Sammy_K/Documents/LabVIEW Data/InstCache</Property>
+				<Property Name="Bld_excludedDirectory[2]" Type="Path">/C/Users/lvadmin/Documents/LabVIEW Data/InstCache</Property>
 				<Property Name="Bld_excludedDirectory[3]" Type="Path">instr.lib</Property>
 				<Property Name="Bld_excludedDirectory[3].pathType" Type="Str">relativeToAppDir</Property>
 				<Property Name="Bld_excludedDirectory[4]" Type="Path">user.lib</Property>
@@ -133,20 +133,17 @@
 				<Property Name="Destination[1].path" Type="Path">/C/github/labviewhacker/LVH-Builds/NI_AB_PROJECTNAME/Build Tools/common/common/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{20C0CD56-6A50-4789-9968-D83FF867E543}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{BBD080D4-99FA-404B-9338-1B5AB8BA5C2B}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LVH-Toolbox.lvlib/Build Tools/LVH-Build-Tools.lvlib/Private/Source Control Utils/Mass Compile Source.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/LVH-Toolbox.lvlib/System Tools/LVH-SystemTools.lvlib/Private/UI/Animations/Animation.vi</Property>
-				<Property Name="Source[2].type" Type="Str">VI</Property>
-				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/LVH-Toolbox.lvlib/System Tools/LVH-SystemTools.lvlib</Property>
-				<Property Name="Source[3].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[3].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/LVH-Toolbox.lvlib/System Tools/LVH-SystemTools.lvlib</Property>
+				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[2].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
 			</Item>
 			<Item Name="Install Project" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
@@ -270,7 +267,7 @@ http://labviewhacker.com/doku.php?id=libraries:lvh_build-tools:lvh_build-tools</
 				<Property Name="INST_buildSpecName" Type="Str">Build Tools</Property>
 				<Property Name="INST_defaultDir" Type="Str">{4B126CE6-0A1A-4AEA-8E39-1336E883D42D}</Property>
 				<Property Name="INST_productName" Type="Str">LVH - Build Tools</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.44</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.56</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">11018015</Property>
 				<Property Name="MSI_arpCompany" Type="Str">LabVIEW Hacker</Property>
@@ -349,9 +346,11 @@ http://labviewhacker.com/doku.php?id=libraries:lvh_build-tools:lvh_build-tools</
 				<Property Name="Source[2].tag" Type="Ref">/My Computer/LVH-Toolbox.lvlib/License.txt</Property>
 				<Property Name="Source[2].type" Type="Str">File</Property>
 				<Property Name="Source[3].dest" Type="Str">{4B9BA99C-AF20-41AA-B3FA-8FE1F913A98C}</Property>
+				<Property Name="Source[3].File[0].cmdArg" Type="Str">"[INSTALLDIR]common"</Property>
 				<Property Name="Source[3].File[0].dest" Type="Str">{4B9BA99C-AF20-41AA-B3FA-8FE1F913A98C}</Property>
-				<Property Name="Source[3].File[0].name" Type="Str">Mass Compile Source.vi</Property>
-				<Property Name="Source[3].File[0].tag" Type="Ref">/My Computer/LVH-Toolbox.lvlib/Build Tools/LVH-Build-Tools.lvlib/Private/Source Control Utils/Mass Compile Source.vi</Property>
+				<Property Name="Source[3].File[0].name" Type="Str">Make Directory Read-Only.bat</Property>
+				<Property Name="Source[3].File[0].runEXE" Type="Bool">true</Property>
+				<Property Name="Source[3].File[0].tag" Type="Str">{BD40ED9C-3E54-42E5-8D5B-DF19780F32B7}</Property>
 				<Property Name="Source[3].FileCount" Type="Int">1</Property>
 				<Property Name="Source[3].name" Type="Str">Common</Property>
 				<Property Name="Source[3].tag" Type="Ref">/My Computer/Build Specifications/Common</Property>
