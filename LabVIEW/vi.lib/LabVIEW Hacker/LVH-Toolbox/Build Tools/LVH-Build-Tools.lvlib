@@ -50,5 +50,4 @@
 		<Item Name="Sync Project.vi" Type="VI" URL="../Public/Sync Project.vi"/>
 		<Item Name="Uninstall Project.vi" Type="VI" URL="../Public/Uninstall Project.vi"/>
 	</Item>
-	<Item Name="Create Folder If DNE.vi" Type="VI" URL="../../System Tools/Public/Path Tools/Create Folder If DNE.vi"/>
 </Library>
