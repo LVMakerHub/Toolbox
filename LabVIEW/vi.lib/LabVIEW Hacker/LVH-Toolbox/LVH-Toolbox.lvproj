@@ -11,10 +11,23 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Test Apps" Type="Folder"/>
 		<Item Name="LVH-Toolbox.lvlib" Type="Library" URL="../LVH-Toolbox.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
+				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="New Zip File.vi" Type="VI" URL="/&lt;vilib&gt;/zip/New Zip File.vi"/>
+				<Item Name="Path To Command Line String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Path To Command Line String.vi"/>
+				<Item Name="PathToUNIXPathString.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/PathToUNIXPathString.vi"/>
+				<Item Name="Close Zip File.vi" Type="VI" URL="/&lt;vilib&gt;/zip/Close Zip File.vi"/>
+				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
+				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
+				<Item Name="Add File to Zip.vi" Type="VI" URL="/&lt;vilib&gt;/zip/Add File to Zip.vi"/>
+				<Item Name="Relative Path To Platform Independent String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Relative Path To Platform Independent String.vi"/>
 				<Item Name="Registry RtKey.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry RtKey.ctl"/>
 				<Item Name="Open Registry Key.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Open Registry Key.vi"/>
 				<Item Name="Registry SAM.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry SAM.ctl"/>
@@ -31,25 +44,21 @@
 				<Item Name="Registry Simplify Data Type.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry Simplify Data Type.vi"/>
 				<Item Name="Read Registry Value Simple U32.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value Simple U32.vi"/>
 				<Item Name="Close Registry Key.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Close Registry Key.vi"/>
-				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
-				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="Query Registry Key Info.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Query Registry Key Info.vi"/>
+				<Item Name="Enum Registry Keys.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Enum Registry Keys.vi"/>
+				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
+				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="NI_WebServices.lvlib" Type="Library" URL="/&lt;vilib&gt;/wsapi/NI_WebServices.lvlib"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
-				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
-				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
-				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
-				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="Open URL in Default Browser.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser.vi"/>
+				<Item Name="Open URL in Default Browser (string).vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser (string).vi"/>
+				<Item Name="Open URL in Default Browser core.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser core.vi"/>
+				<Item Name="Open URL in Default Browser (path).vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser (path).vi"/>
+				<Item Name="Path to URL.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL.vi"/>
+				<Item Name="Escape Characters for HTTP.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Escape Characters for HTTP.vi"/>
+				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="New Zip File.vi" Type="VI" URL="/&lt;vilib&gt;/zip/New Zip File.vi"/>
-				<Item Name="Path To Command Line String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Path To Command Line String.vi"/>
-				<Item Name="PathToUNIXPathString.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/PathToUNIXPathString.vi"/>
-				<Item Name="Close Zip File.vi" Type="VI" URL="/&lt;vilib&gt;/zip/Close Zip File.vi"/>
-				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
-				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
-				<Item Name="Add File to Zip.vi" Type="VI" URL="/&lt;vilib&gt;/zip/Add File to Zip.vi"/>
-				<Item Name="Relative Path To Platform Independent String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Relative Path To Platform Independent String.vi"/>
-				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
@@ -57,15 +66,6 @@
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
 				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
-				<Item Name="Query Registry Key Info.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Query Registry Key Info.vi"/>
-				<Item Name="Enum Registry Keys.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Enum Registry Keys.vi"/>
-				<Item Name="NI_WebServices.lvlib" Type="Library" URL="/&lt;vilib&gt;/wsapi/NI_WebServices.lvlib"/>
-				<Item Name="Open URL in Default Browser.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser.vi"/>
-				<Item Name="Open URL in Default Browser (string).vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser (string).vi"/>
-				<Item Name="Open URL in Default Browser core.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser core.vi"/>
-				<Item Name="Open URL in Default Browser (path).vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser (path).vi"/>
-				<Item Name="Path to URL.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL.vi"/>
-				<Item Name="Escape Characters for HTTP.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Escape Characters for HTTP.vi"/>
 				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
 				<Item Name="Unflatten Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pixmap.llb/Unflatten Pixmap.vi"/>
 				<Item Name="Draw Unflattened Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Unflattened Pixmap.vi"/>
@@ -76,7 +76,6 @@
 				<Item Name="Draw 4-Bit Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw 4-Bit Pixmap.vi"/>
 				<Item Name="Draw 8-Bit Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw 8-Bit Pixmap.vi"/>
 				<Item Name="Draw 1-Bit Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw 1-Bit Pixmap.vi"/>
-				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
@@ -122,16 +121,16 @@
 				<Property Name="Bld_excludedDirectory[4]" Type="Path">user.lib</Property>
 				<Property Name="Bld_excludedDirectory[4].pathType" Type="Str">relativeToAppDir</Property>
 				<Property Name="Bld_excludedDirectoryCount" Type="Int">5</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/github/labviewhacker/LVH-Builds/NI_AB_PROJECTNAME/Build Tools/common</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/github/labviewhacker/LVH-Builds/NI_AB_PROJECTNAME/Components/Common</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6AEC7126-FBA0-442B-B285-A94B4E3A7D83}</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/github/labviewhacker/LVH-Builds/NI_AB_PROJECTNAME/Build Tools/common</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/github/labviewhacker/LVH-Builds/NI_AB_PROJECTNAME/Components/Common</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/github/labviewhacker/LVH-Builds/NI_AB_PROJECTNAME/Build Tools/common/common/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/github/labviewhacker/LVH-Builds/NI_AB_PROJECTNAME/Components/Common/common/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{BBD080D4-99FA-404B-9338-1B5AB8BA5C2B}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E9D4430A-6117-4929-88B4-1901C465BD07}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LVH-Toolbox.lvlib/Build Tools/LVH-Build-Tools.lvlib/Private/Source Control Utils/Mass Compile Source.vi</Property>
@@ -152,20 +151,20 @@
 				<Property Name="Bld_buildSpecName" Type="Str">Install Project</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/github/labviewhacker/LVH-Builds/NI_AB_PROJECTNAME/Build Tools/Install Project</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/github/labviewhacker/LVH-Builds/NI_AB_PROJECTNAME/Components/Install Project</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{14FEF51D-5BB1-4581-AB50-4550AE1B7B64}</Property>
 				<Property Name="Destination[0].destName" Type="Str">LVH - Install Project.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/github/labviewhacker/LVH-Builds/NI_AB_PROJECTNAME/Build Tools/Install Project/LVH - Install Project.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/github/labviewhacker/LVH-Builds/NI_AB_PROJECTNAME/Components/Install Project/LVH - Install Project.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/github/labviewhacker/LVH-Builds/NI_AB_PROJECTNAME/Build Tools/Install Project/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/github/labviewhacker/LVH-Builds/NI_AB_PROJECTNAME/Components/Install Project/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/LVH-Toolbox.lvlib/Images/Build Tools/Icons/Install Project.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{2EFC6FD3-4534-4F2A-B1AE-26CF7CDD3C26}</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/LVH-Toolbox.lvlib/Images/Icons/Install Project.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E9D4430A-6117-4929-88B4-1901C465BD07}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LVH-Toolbox.lvlib/Build Tools/LVH-Build-Tools.lvlib/Public/Install Project.vi</Property>
@@ -176,13 +175,10 @@
 				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[2].type" Type="Str">Library</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref"></Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/LVH-Toolbox.lvlib/GUI Tools/GUI Tools.lvlib/GUI Tools/Private/Animations/Animation.vi</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
-				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/LVH-Toolbox.lvlib/GUI Tools/GUI Tools.lvlib/GUI Tools/Private/Animations/Animation.vi</Property>
-				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[4].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">5</Property>
+				<Property Name="SourceCount" Type="Int">4</Property>
 				<Property Name="TgtF_companyName" Type="Str">LabVIEW Hacker</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">LVH - Install Project
 
@@ -203,20 +199,20 @@ http://labviewhacker.com/doku.php?id=libraries:lvh_build-tools:lvh_build-tools</
 				<Property Name="Bld_buildSpecName" Type="Str">Sync Project</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/github/labviewhacker/LVH-Builds/NI_AB_PROJECTNAME/Build Tools/Sync Project</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/github/labviewhacker/LVH-Builds/NI_AB_PROJECTNAME/Components/Sync Project</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{88927922-6F6A-41AA-86C2-FBF977D15FA2}</Property>
 				<Property Name="Destination[0].destName" Type="Str">LVH - Sync Project.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/github/labviewhacker/LVH-Builds/NI_AB_PROJECTNAME/Build Tools/Sync Project/LVH - Sync Project.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/github/labviewhacker/LVH-Builds/NI_AB_PROJECTNAME/Components/Sync Project/LVH - Sync Project.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/github/labviewhacker/LVH-Builds/NI_AB_PROJECTNAME/Build Tools/Sync Project/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/github/labviewhacker/LVH-Builds/NI_AB_PROJECTNAME/Components/Sync Project/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/LVH-Toolbox.lvlib/Images/Build Tools/Icons/Sync Project.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{314A4CA8-08E5-4AC9-903D-CB377F8280BE}</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/LVH-Toolbox.lvlib/Images/Icons/Sync Project.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E9D4430A-6117-4929-88B4-1901C465BD07}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LVH-Toolbox.lvlib/Build Tools/LVH-Build-Tools.lvlib/Public/Install Project.vi</Property>
@@ -261,21 +257,21 @@ http://labviewhacker.com/doku.php?id=libraries:lvh_build-tools:lvh_build-tools</
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="INST_author" Type="Str">0</Property>
 				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
-				<Property Name="INST_buildLocation" Type="Path">/C/github/labviewhacker/LVH-Builds/LVH-Toolbox/Build Tools/LVH Build Tools</Property>
+				<Property Name="INST_buildLocation" Type="Path">/C/github/labviewhacker/LVH-Builds/LVH-Toolbox/Installers/Build Tools</Property>
 				<Property Name="INST_buildSpecName" Type="Str">Build Tools</Property>
 				<Property Name="INST_defaultDir" Type="Str">{4B126CE6-0A1A-4AEA-8E39-1336E883D42D}</Property>
 				<Property Name="INST_productName" Type="Str">LVH - Build Tools</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.56</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.59</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">11018013</Property>
 				<Property Name="MSI_arpCompany" Type="Str">LabVIEW Hacker</Property>
 				<Property Name="MSI_arpContact" Type="Str">labviewhacker@gmail.com</Property>
 				<Property Name="MSI_arpURL" Type="Str">www.labviewhacker.com</Property>
-				<Property Name="MSI_bannerImageID" Type="Ref">/My Computer/LVH-Toolbox.lvlib/Images/Build Tools/LVH Build Tools Banner.bmp</Property>
+				<Property Name="MSI_bannerImageID" Type="Ref">/My Computer/LVH-Toolbox.lvlib/Images/Installers/Build Tools/LVH Build Tools Banner.bmp</Property>
 				<Property Name="MSI_distID" Type="Str">{475A7710-B856-4D71-B66F-DFC34F2C8E0F}</Property>
 				<Property Name="MSI_osCheck" Type="Int">0</Property>
 				<Property Name="MSI_upgradeCode" Type="Str">{987F7804-3DE1-4B5F-95CB-ED4A53045128}</Property>
-				<Property Name="MSI_welcomeImageID" Type="Ref">/My Computer/LVH-Toolbox.lvlib/Images/Build Tools/LVH Build Tools Welcome Image.bmp</Property>
+				<Property Name="MSI_welcomeImageID" Type="Ref">/My Computer/LVH-Toolbox.lvlib/Images/Installers/Build Tools/LVH Build Tools Welcome Image.bmp</Property>
 				<Property Name="MSI_windowMessage" Type="Str">na</Property>
 				<Property Name="MSI_windowTitle" Type="Str">na</Property>
 				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
@@ -339,10 +335,14 @@ http://labviewhacker.com/doku.php?id=libraries:lvh_build-tools:lvh_build-tools</
 				<Property Name="Source[1].name" Type="Str">Sync Project</Property>
 				<Property Name="Source[1].tag" Type="Ref">/My Computer/Build Specifications/Sync Project</Property>
 				<Property Name="Source[1].type" Type="Str">EXE</Property>
-				<Property Name="Source[2].dest" Type="Str">{4B126CE6-0A1A-4AEA-8E39-1336E883D42D}</Property>
-				<Property Name="Source[2].name" Type="Str">License.txt</Property>
-				<Property Name="Source[2].tag" Type="Ref"></Property>
-				<Property Name="Source[2].type" Type="Str">File</Property>
+				<Property Name="Source[2].dest" Type="Str">{4B9BA99C-AF20-41AA-B3FA-8FE1F913A98C}</Property>
+				<Property Name="Source[2].File[0].dest" Type="Str">{4B9BA99C-AF20-41AA-B3FA-8FE1F913A98C}</Property>
+				<Property Name="Source[2].File[0].name" Type="Str">Mass Compile Source.vi</Property>
+				<Property Name="Source[2].File[0].tag" Type="Ref">/My Computer/LVH-Toolbox.lvlib/Build Tools/LVH-Build-Tools.lvlib/Private/Source Control Utils/Mass Compile Source.vi</Property>
+				<Property Name="Source[2].FileCount" Type="Int">1</Property>
+				<Property Name="Source[2].name" Type="Str">Common</Property>
+				<Property Name="Source[2].tag" Type="Ref">/My Computer/Build Specifications/Common</Property>
+				<Property Name="Source[2].type" Type="Str">SDIST</Property>
 				<Property Name="Source[3].dest" Type="Str">{4B9BA99C-AF20-41AA-B3FA-8FE1F913A98C}</Property>
 				<Property Name="Source[3].File[0].cmdArg" Type="Str">"[INSTALLDIR]common"</Property>
 				<Property Name="Source[3].File[0].dest" Type="Str">{4B9BA99C-AF20-41AA-B3FA-8FE1F913A98C}</Property>
@@ -353,7 +353,7 @@ http://labviewhacker.com/doku.php?id=libraries:lvh_build-tools:lvh_build-tools</
 				<Property Name="Source[3].name" Type="Str">Common</Property>
 				<Property Name="Source[3].tag" Type="Ref">/My Computer/Build Specifications/Common</Property>
 				<Property Name="Source[3].type" Type="Str">SDIST</Property>
-				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
 			</Item>
 		</Item>
 	</Item>

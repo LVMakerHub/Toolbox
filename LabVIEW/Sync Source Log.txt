@@ -1,3 +1,0 @@
-#### Starting Mass Compile: Wed, Oct 02, 2013 4:07:58 PM
-  Directory: "C:\github\labviewhacker\LVH-Toolbox\LabVIEW"
-#### Finished Mass Compile: Wed, Oct 02, 2013 4:08:00 PM

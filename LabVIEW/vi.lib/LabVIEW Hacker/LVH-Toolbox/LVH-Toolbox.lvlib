@@ -18,39 +18,47 @@
 		<Item Name="GUI Tools.lvlib" Type="Library" URL="../GUI Tools/GUI Tools.lvlib"/>
 	</Item>
 	<Item Name="Images" Type="Folder">
-		<Item Name="Build Tools" Type="Folder">
-			<Item Name="Icons" Type="Folder">
-				<Item Name="Build Tool Icons.pdn" Type="Document" URL="/&lt;vilib&gt;/LabVIEW Hacker/LVH-Toolbox/Images/Icons/Build Tool Icons.pdn"/>
-				<Item Name="Install Project.ico" Type="Document" URL="/&lt;vilib&gt;/LabVIEW Hacker/LVH-Toolbox/Images/Icons/Install Project.ico"/>
-				<Item Name="Install Project.png" Type="Document" URL="/&lt;vilib&gt;/LabVIEW Hacker/LVH-Toolbox/Images/Icons/Install Project.png"/>
-				<Item Name="Sync Project.ico" Type="Document" URL="/&lt;vilib&gt;/LabVIEW Hacker/LVH-Toolbox/Images/Icons/Sync Project.ico"/>
-				<Item Name="Sync Project.png" Type="Document" URL="/&lt;vilib&gt;/LabVIEW Hacker/LVH-Toolbox/Images/Icons/Sync Project.png"/>
-				<Item Name="Uninstall Project.ico" Type="Document" URL="/&lt;vilib&gt;/LabVIEW Hacker/LVH-Toolbox/Images/Icons/Uninstall Project.ico"/>
-				<Item Name="Uninstall Project.png" Type="Document" URL="/&lt;vilib&gt;/LabVIEW Hacker/LVH-Toolbox/Images/Icons/Uninstall Project.png"/>
+		<Item Name="Icons" Type="Folder">
+			<Item Name="Build Tool Icons.pdn" Type="Document" URL="../Images/Icons/Build Tool Icons.pdn"/>
+			<Item Name="Install Project.ico" Type="Document" URL="../Images/Icons/Install Project.ico"/>
+			<Item Name="Install Project.png" Type="Document" URL="../Images/Icons/Install Project.png"/>
+			<Item Name="Sync Project.ico" Type="Document" URL="../Images/Icons/Sync Project.ico"/>
+			<Item Name="Sync Project.png" Type="Document" URL="../Images/Icons/Sync Project.png"/>
+			<Item Name="Uninstall Project.ico" Type="Document" URL="../Images/Icons/Uninstall Project.ico"/>
+			<Item Name="Uninstall Project.png" Type="Document" URL="../Images/Icons/Uninstall Project.png"/>
+		</Item>
+		<Item Name="Installers" Type="Folder">
+			<Item Name="Build Tools" Type="Folder">
+				<Item Name="LVH Build Tools Banner.bmp" Type="Document" URL="../Images/Installers/Build Tools/LVH Build Tools Banner.bmp"/>
+				<Item Name="LVH Build Tools Banner.pdn" Type="Document" URL="../Images/Installers/Build Tools/LVH Build Tools Banner.pdn"/>
+				<Item Name="LVH Build Tools Welcome Image.bmp" Type="Document" URL="../Images/Installers/Build Tools/LVH Build Tools Welcome Image.bmp"/>
+				<Item Name="LVH Build Tools Welcome Image.pdn" Type="Document" URL="../Images/Installers/Build Tools/LVH Build Tools Welcome Image.pdn"/>
 			</Item>
-			<Item Name="LVH Build Tools Banner.bmp" Type="Document" URL="/&lt;vilib&gt;/LabVIEW Hacker/LVH-Toolbox/Images/Installers/Build Tools/LVH Build Tools Banner.bmp"/>
-			<Item Name="LVH Build Tools Welcome Image.bmp" Type="Document" URL="/&lt;vilib&gt;/LabVIEW Hacker/LVH-Toolbox/Images/Installers/Build Tools/LVH Build Tools Welcome Image.bmp"/>
 		</Item>
 		<Item Name="UI" Type="Folder">
 			<Item Name="Animations" Type="Folder">
 				<Item Name="Loading" Type="Folder">
 					<Item Name="Green Bars" Type="Folder">
-						<Item Name="1.png" Type="Document" URL="/&lt;vilib&gt;/LabVIEW Hacker/LVH-Toolbox/Images/UI/Animations/Loading/Green Bars/1.png"/>
-						<Item Name="2.png" Type="Document" URL="/&lt;vilib&gt;/LabVIEW Hacker/LVH-Toolbox/Images/UI/Animations/Loading/Green Bars/2.png"/>
-						<Item Name="3.png" Type="Document" URL="/&lt;vilib&gt;/LabVIEW Hacker/LVH-Toolbox/Images/UI/Animations/Loading/Green Bars/3.png"/>
-						<Item Name="4.png" Type="Document" URL="/&lt;vilib&gt;/LabVIEW Hacker/LVH-Toolbox/Images/UI/Animations/Loading/Green Bars/4.png"/>
-						<Item Name="5.png" Type="Document" URL="/&lt;vilib&gt;/LabVIEW Hacker/LVH-Toolbox/Images/UI/Animations/Loading/Green Bars/5.png"/>
-						<Item Name="6.png" Type="Document" URL="/&lt;vilib&gt;/LabVIEW Hacker/LVH-Toolbox/Images/UI/Animations/Loading/Green Bars/6.png"/>
-						<Item Name="7.png" Type="Document" URL="/&lt;vilib&gt;/LabVIEW Hacker/LVH-Toolbox/Images/UI/Animations/Loading/Green Bars/7.png"/>
-						<Item Name="8.png" Type="Document" URL="/&lt;vilib&gt;/LabVIEW Hacker/LVH-Toolbox/Images/UI/Animations/Loading/Green Bars/8.png"/>
+						<Item Name="1.png" Type="Document" URL="../Images/UI/Animations/Loading/Green Bars/1.png"/>
+						<Item Name="2.png" Type="Document" URL="../Images/UI/Animations/Loading/Green Bars/2.png"/>
+						<Item Name="3.png" Type="Document" URL="../Images/UI/Animations/Loading/Green Bars/3.png"/>
+						<Item Name="4.png" Type="Document" URL="../Images/UI/Animations/Loading/Green Bars/4.png"/>
+						<Item Name="5.png" Type="Document" URL="../Images/UI/Animations/Loading/Green Bars/5.png"/>
+						<Item Name="6.png" Type="Document" URL="../Images/UI/Animations/Loading/Green Bars/6.png"/>
+						<Item Name="7.png" Type="Document" URL="../Images/UI/Animations/Loading/Green Bars/7.png"/>
+						<Item Name="8.png" Type="Document" URL="../Images/UI/Animations/Loading/Green Bars/8.png"/>
 					</Item>
 				</Item>
 			</Item>
 		</Item>
+		<Item Name="Wizard" Type="Folder">
+			<Item Name="LVH Wizard Background.pdn" Type="Document" URL="../Images/Wizard/LVH Wizard Background.pdn"/>
+			<Item Name="LVH Wizard Background.png" Type="Document" URL="../Images/Wizard/LVH Wizard Background.png"/>
+		</Item>
 	</Item>
 	<Item Name="Installer Tools" Type="Folder">
 		<Item Name="Public" Type="Folder">
-			<Item Name="Make Directory Read-Only.bat" Type="Document" URL="/&lt;vilib&gt;/LabVIEW Hacker/LVH-Toolbox/Installer Tools/Public/Make Directory Read-Only.bat"/>
+			<Item Name="Make Directory Read-Only.bat" Type="Document" URL="../Installer Tools/Public/Make Directory Read-Only.bat"/>
 		</Item>
 	</Item>
 </Library>
