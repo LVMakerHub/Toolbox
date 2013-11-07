@@ -16,26 +16,29 @@
 	<Item Name="Public" Type="Folder">
 		<Item Name="Archiving" Type="Folder">
 			<Item Name="Archive Directories.vi" Type="VI" URL="../Public/Archiving/Archive Directories.vi"/>
-			<Item Name="Archive Directory.vi" Type="VI" URL="../Public/Archiving/Archive Directory.vi"/>
+			<Item Name="Archive Directory.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/LVH-Toolbox/Common/Public/Archiving/Archive Directory.vi"/>
 		</Item>
 		<Item Name="Path Tools" Type="Folder">
-			<Item Name="Append Relative Path String.vi" Type="VI" URL="../Public/Path Tools/Append Relative Path String.vi"/>
+			<Item Name="Append Relative Path String.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/LVH-Toolbox/Common/Public/Path Tools/Append Relative Path String.vi"/>
 			<Item Name="Create Folder If DNE.vi" Type="VI" URL="../Public/Path Tools/Create Folder If DNE.vi"/>
 			<Item Name="Get AppData Path.vi" Type="VI" URL="../Public/Path Tools/Get AppData Path.vi"/>
-			<Item Name="Get LabVIEW Data Directory.vi" Type="VI" URL="../Public/Path Tools/Get LabVIEW Data Directory.vi"/>
+			<Item Name="Get Current LV Dir.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/LVH-Toolbox/Common/Public/Path Tools/Get Current LV Dir.vi"/>
+			<Item Name="Get LabVIEW Data Directory.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/LVH-Toolbox/Common/Public/Path Tools/Get LabVIEW Data Directory.vi"/>
 			<Item Name="Get LabVIEW Install Paths.vi" Type="VI" URL="../Public/Path Tools/Get LabVIEW Install Paths.vi"/>
 			<Item Name="Get Main Path.vi" Type="VI" URL="../Public/Path Tools/Get Main Path.vi"/>
-			<Item Name="Relative Path String To Array Of Strings.vi" Type="VI" URL="../Public/Path Tools/Relative Path String To Array Of Strings.vi"/>
+			<Item Name="Relative Path String To Array Of Strings.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/LVH-Toolbox/Common/Public/Path Tools/Relative Path String To Array Of Strings.vi"/>
 			<Item Name="Strip Path To Exe.vi" Type="VI" URL="../Public/Path Tools/Strip Path To Exe.vi"/>
+			<Item Name="Strip Path To Token.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/LVH-Toolbox/Common/Public/Path Tools/Strip Path To Token.vi"/>
 		</Item>
 		<Item Name="String Tools" Type="Folder">
 			<Item Name="Trim Prefix.vi" Type="VI" URL="../Public/String Tools/Trim Prefix.vi"/>
 		</Item>
 		<Item Name="System" Type="Folder">
-			<Item Name="Kill Process.vi" Type="VI" URL="../Public/System/Kill Process.vi"/>
-			<Item Name="Mass Compile Helper.vi" Type="VI" URL="../Public/System/Mass Compile Helper.vi"/>
+			<Item Name="Kill Process.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/LVH-Toolbox/Common/Public/System/Kill Process.vi"/>
+			<Item Name="Mass Compile Helper.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/LVH-Toolbox/Common/Public/System/Mass Compile Helper.vi"/>
 		</Item>
 		<Item Name="VI Tools" Type="Folder">
+			<Item Name="Close FP.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/LVH-Toolbox/Common/Public/Path Tools/Close FP.vi"/>
 			<Item Name="Set FP Origin.vi" Type="VI" URL="../Public/VI Tools/Set FP Origin.vi"/>
 			<Item Name="Set FP Size.vi" Type="VI" URL="../Public/VI Tools/Set FP Size.vi"/>
 		</Item>
