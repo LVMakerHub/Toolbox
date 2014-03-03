@@ -54,8 +54,6 @@
 		</Item>
 	</Item>
 	<Item Name="Installer Tools" Type="Folder">
-		<Item Name="Public" Type="Folder">
-			<Item Name="Make Directory Read-Only.bat" Type="Document" URL="/&lt;vilib&gt;/LabVIEW Hacker/LVH-Toolbox/Installer Tools/Public/Make Directory Read-Only.bat"/>
-		</Item>
+		<Item Name="Installer Tools.lvlib" Type="Library" URL="../Installer Tools/Installer Tools.lvlib"/>
 	</Item>
 </Library>

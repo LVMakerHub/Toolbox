@@ -24,6 +24,12 @@
 			<Item Name="Save VI For Previous Version.vi" Type="VI" URL="../Public/VI Tools/Save VI For Previous Version.vi"/>
 			<Item Name="Save XControl For Previous Version.vi" Type="VI" URL="../Private/VI Tools/Save XControl For Previous Version.vi"/>
 		</Item>
+		<Item Name="Web" Type="Folder">
+			<Item Name="Type Defs" Type="Folder">
+				<Item Name="Download Task.ctl" Type="VI" URL="../Private/Web/Type Defs/Download Task.ctl"/>
+			</Item>
+			<Item Name="Download Worker.vi" Type="VI" URL="../Private/Web/Download Worker.vi"/>
+		</Item>
 	</Item>
 	<Item Name="Public" Type="Folder">
 		<Item Name="Archiving" Type="Folder">
@@ -33,6 +39,7 @@
 		<Item Name="Math" Type="Folder">
 			<Item Name="BCD to DEC.vi" Type="VI" URL="../Public/Math/BCD to DEC.vi"/>
 			<Item Name="DEC to BCD.vi" Type="VI" URL="../Public/Math/DEC to BCD.vi"/>
+			<Item Name="U16 Two&apos;s Compliment To Decimal.vi" Type="VI" URL="../Public/Math/U16 Two&apos;s Compliment To Decimal.vi"/>
 		</Item>
 		<Item Name="Path Tools" Type="Folder">
 			<Item Name="Append Relative Path String.vi" Type="VI" URL="../Public/Path Tools/Append Relative Path String.vi"/>
@@ -67,7 +74,10 @@
 		</Item>
 		<Item Name="Web" Type="Folder">
 			<Item Name="Build Google Campaign URL.vi" Type="VI" URL="../Public/Web/Build Google Campaign URL.vi"/>
+			<Item Name="Cancel Download.vi" Type="VI" URL="../Public/Web/Cancel Download.vi"/>
+			<Item Name="Get Download Progress.vi" Type="VI" URL="../Public/Web/Get Download Progress.vi"/>
 			<Item Name="Open Google Campaign URL.vi" Type="VI" URL="../Public/Web/Open Google Campaign URL.vi"/>
+			<Item Name="Start Download.vi" Type="VI" URL="../Public/Web/Start Download.vi"/>
 		</Item>
 	</Item>
 </Library>
