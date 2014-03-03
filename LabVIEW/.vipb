@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.5" Created_Date="2013-11-01 09:55:51" Modified_Date="2014-01-15 13:08:32" Creator="lvadmin" Comments="" ID="972f34481e810b12d1bc66eeb3727dc9">
+<VI_Package_Builder_Settings Version="0.5" Created_Date="2013-11-01 09:55:51" Modified_Date="2014-03-03 09:48:31" Creator="lvadmin" Comments="" ID="747e0e399ada1f0876bacbbc222110c8">
   <Library_General_Settings>
     <Package_File_Name>lvh_toolbox</Package_File_Name>
-    <Library_Version>1.0.0.10</Library_Version>
+    <Library_Version>1.0.0.11</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\LVH-Builds\LVH-Toolbox\Installers</Library_Output_Folder>
@@ -31,7 +31,7 @@
       <Copyright/>
       <Packager>Sam Kristoff</Packager>
       <URL>www.labviewhacker.com</URL>
-      <Release_Notes>Common Components For LVH Libraries</Release_Notes>
+      <Release_Notes>Added Installer Tools and LVH Dependency Installer Core</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -109,6 +109,12 @@
       </Destination_Overrides>
       <Destination_Overrides>
         <Path>vi.lib</Path>
+        <Destination>Toolkit VIs</Destination>
+        <Additional_Destination>true</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>project</Path>
         <Destination>Toolkit VIs</Destination>
         <Additional_Destination>true</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
