@@ -21,9 +21,11 @@
 		<Item Name="Flatten Dependencies To String Array.vi" Type="VI" URL="../Private/Flatten Dependencies To String Array.vi"/>
 		<Item Name="Get Installed Test VI Path.vi" Type="VI" URL="../Private/Get Installed Test VI Path.vi"/>
 		<Item Name="Launch Installer Helper.vi" Type="VI" URL="../Private/Launch Installer Helper.vi"/>
+		<Item Name="Load Stored Install Data.vi" Type="VI" URL="../Private/Load Stored Install Data.vi"/>
 		<Item Name="Parse Installed Files.vi" Type="VI" URL="../Private/Parse Installed Files.vi"/>
 		<Item Name="Populate List Box.vi" Type="VI" URL="../Private/Populate List Box.vi"/>
 		<Item Name="Populate MC List Box.vi" Type="VI" URL="../Private/Populate MC List Box.vi"/>
+		<Item Name="Save VIP Data.vi" Type="VI" URL="../Private/Save VIP Data.vi"/>
 		<Item Name="Start Download.vi" Type="VI" URL="../Private/Start Download.vi"/>
 		<Item Name="Unflatten Dependencies From String Array.vi" Type="VI" URL="../Private/Unflatten Dependencies From String Array.vi"/>
 	</Item>
