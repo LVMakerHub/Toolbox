@@ -18,10 +18,10 @@
 		</Item>
 		<Item Name="VI Tools" Type="Folder">
 			<Item Name="LabVIEW Version to String.vi" Type="VI" URL="../Private/LabVIEW Version to String.vi"/>
-			<Item Name="Save Library For Previous Version.vi" Type="VI" URL="../Public/VI Tools/Save Library For Previous Version.vi"/>
-			<Item Name="Save LV Class For Previous Version.vi" Type="VI" URL="../Public/VI Tools/Save LV Class For Previous Version.vi"/>
-			<Item Name="Save Project For Previous Version.vi" Type="VI" URL="../Public/VI Tools/Save Project For Previous Version.vi"/>
-			<Item Name="Save VI For Previous Version.vi" Type="VI" URL="../Public/VI Tools/Save VI For Previous Version.vi"/>
+			<Item Name="Save Library For Previous Version.vi" Type="VI" URL="../Private/VI Tools/Save Library For Previous Version.vi"/>
+			<Item Name="Save LV Class For Previous Version.vi" Type="VI" URL="../Private/VI Tools/Save LV Class For Previous Version.vi"/>
+			<Item Name="Save Project For Previous Version.vi" Type="VI" URL="../Private/VI Tools/Save Project For Previous Version.vi"/>
+			<Item Name="Save VI For Previous Version.vi" Type="VI" URL="../Private/VI Tools/Save VI For Previous Version.vi"/>
 			<Item Name="Save XControl For Previous Version.vi" Type="VI" URL="../Private/VI Tools/Save XControl For Previous Version.vi"/>
 		</Item>
 		<Item Name="Web" Type="Folder">
@@ -43,12 +43,10 @@
 		</Item>
 		<Item Name="Path Tools" Type="Folder">
 			<Item Name="Append Relative Path String.vi" Type="VI" URL="../Public/Path Tools/Append Relative Path String.vi"/>
-			<Item Name="Create Folder If DNE.vi" Type="VI" URL="../Public/Path Tools/Create Folder If DNE.vi"/>
-			<Item Name="Empty Directory.vi" Type="VI" URL="../Empty Directory.vi"/>
-			<Item Name="Find Deepest Path.vi" Type="VI" URL="../Public/Path Tools/Find Deepest Path.vi"/>
 			<Item Name="Get AppData Path.vi" Type="VI" URL="../Public/Path Tools/Get AppData Path.vi"/>
 			<Item Name="Get Current LV Dir.vi" Type="VI" URL="../Public/Path Tools/Get Current LV Dir.vi"/>
 			<Item Name="Get Deepest Common Directory.vi" Type="VI" URL="../Public/Path Tools/Get Deepest Common Directory.vi"/>
+			<Item Name="Get Deepest Path.vi" Type="VI" URL="../Public/Path Tools/Get Deepest Path.vi"/>
 			<Item Name="Get File Extension.vi" Type="VI" URL="../Public/Path Tools/Get File Extension.vi"/>
 			<Item Name="Get Files By Extension.vi" Type="VI" URL="../Public/Path Tools/Get Files By Extension.vi"/>
 			<Item Name="Get LabVIEW Data Directory.vi" Type="VI" URL="../Public/Path Tools/Get LabVIEW Data Directory.vi"/>
@@ -62,12 +60,14 @@
 			<Item Name="Trim Prefix.vi" Type="VI" URL="../Public/String Tools/Trim Prefix.vi"/>
 		</Item>
 		<Item Name="System" Type="Folder">
+			<Item Name="Create Folder If DNE.vi" Type="VI" URL="../Public/System/Create Folder If DNE.vi"/>
+			<Item Name="Empty Directory.vi" Type="VI" URL="../Public/System/Empty Directory.vi"/>
 			<Item Name="Kill Process.vi" Type="VI" URL="../Public/System/Kill Process.vi"/>
 			<Item Name="Mass Compile Helper.vi" Type="VI" URL="../Public/System/Mass Compile Helper.vi"/>
 		</Item>
 		<Item Name="VI Tools" Type="Folder">
 			<Item Name="Backsave LabVIEW File.vi" Type="VI" URL="../Public/VI Tools/Backsave LabVIEW File.vi"/>
-			<Item Name="Close FP.vi" Type="VI" URL="../Public/Path Tools/Close FP.vi"/>
+			<Item Name="Close FP.vi" Type="VI" URL="../Public/VI Tools/Close FP.vi"/>
 			<Item Name="Get LabVIEW File Version.vi" Type="VI" URL="../Public/VI Tools/Get LabVIEW File Version.vi"/>
 			<Item Name="Set FP Origin.vi" Type="VI" URL="../Public/VI Tools/Set FP Origin.vi"/>
 			<Item Name="Set FP Size.vi" Type="VI" URL="../Public/VI Tools/Set FP Size.vi"/>

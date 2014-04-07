@@ -5,6 +5,9 @@
 	<Item Name="Common" Type="Folder">
 		<Item Name="LVH-Common.lvlib" Type="Library" URL="../Common/LVH-Common.lvlib"/>
 	</Item>
+	<Item Name="Documentation" Type="Folder">
+		<Item Name="LVH-Documentation.lvlib" Type="Library" URL="../Documentation/LVH-Documentation.lvlib"/>
+	</Item>
 	<Item Name="DokuWiki" Type="Folder">
 		<Item Name="LVH-DokuWiki.lvlib" Type="Library" URL="../DokuWiki/LVH-DokuWiki.lvlib"/>
 	</Item>
