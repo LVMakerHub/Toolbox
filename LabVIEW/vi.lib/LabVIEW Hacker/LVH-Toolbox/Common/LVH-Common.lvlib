@@ -75,6 +75,7 @@
 		<Item Name="Web" Type="Folder">
 			<Item Name="Build Google Campaign URL.vi" Type="VI" URL="../Public/Web/Build Google Campaign URL.vi"/>
 			<Item Name="Cancel Download.vi" Type="VI" URL="../Public/Web/Cancel Download.vi"/>
+			<Item Name="Follow Redirect.vi" Type="VI" URL="../Public/Web/Follow Redirect.vi"/>
 			<Item Name="Get Download Progress.vi" Type="VI" URL="../Public/Web/Get Download Progress.vi"/>
 			<Item Name="Open Google Campaign URL.vi" Type="VI" URL="../Public/Web/Open Google Campaign URL.vi"/>
 			<Item Name="Start Download.vi" Type="VI" URL="../Public/Web/Start Download.vi"/>
