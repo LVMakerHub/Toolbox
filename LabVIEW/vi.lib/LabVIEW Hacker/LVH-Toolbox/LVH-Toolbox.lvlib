@@ -59,4 +59,7 @@
 	<Item Name="Installer Tools" Type="Folder">
 		<Item Name="Installer Tools.lvlib" Type="Library" URL="../Installer Tools/Installer Tools.lvlib"/>
 	</Item>
+	<Item Name="Scripting" Type="Folder">
+		<Item Name="Scripting.lvlib" Type="Library" URL="../Scripting/Scripting.lvlib"/>
+	</Item>
 </Library>

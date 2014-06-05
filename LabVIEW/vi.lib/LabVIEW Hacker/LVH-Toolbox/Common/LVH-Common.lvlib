@@ -57,6 +57,7 @@
 			<Item Name="Strip Path To Token.vi" Type="VI" URL="../Public/Path Tools/Strip Path To Token.vi"/>
 		</Item>
 		<Item Name="String Tools" Type="Folder">
+			<Item Name="Strip Symmetric.vi" Type="VI" URL="../Public/String Tools/Strip Symmetric.vi"/>
 			<Item Name="Trim Prefix.vi" Type="VI" URL="../Public/String Tools/Trim Prefix.vi"/>
 		</Item>
 		<Item Name="System" Type="Folder">
