@@ -21,6 +21,7 @@
 			<Item Name="Save Library For Previous Version.vi" Type="VI" URL="../Private/VI Tools/Save Library For Previous Version.vi"/>
 			<Item Name="Save LV Class For Previous Version.vi" Type="VI" URL="../Private/VI Tools/Save LV Class For Previous Version.vi"/>
 			<Item Name="Save Project For Previous Version.vi" Type="VI" URL="../Private/VI Tools/Save Project For Previous Version.vi"/>
+			<Item Name="Save State As Default Helper.vi" Type="VI" URL="../Private/VI Tools/Save State As Default Helper.vi"/>
 			<Item Name="Save VI For Previous Version.vi" Type="VI" URL="../Private/VI Tools/Save VI For Previous Version.vi"/>
 			<Item Name="Save XControl For Previous Version.vi" Type="VI" URL="../Private/VI Tools/Save XControl For Previous Version.vi"/>
 		</Item>
@@ -70,6 +71,7 @@
 			<Item Name="Backsave LabVIEW File.vi" Type="VI" URL="../Public/VI Tools/Backsave LabVIEW File.vi"/>
 			<Item Name="Close FP.vi" Type="VI" URL="../Public/VI Tools/Close FP.vi"/>
 			<Item Name="Get LabVIEW File Version.vi" Type="VI" URL="../Public/VI Tools/Get LabVIEW File Version.vi"/>
+			<Item Name="Save State As Default.vi" Type="VI" URL="../Public/VI Tools/Save State As Default.vi"/>
 			<Item Name="Set FP Origin.vi" Type="VI" URL="../Public/VI Tools/Set FP Origin.vi"/>
 			<Item Name="Set FP Size.vi" Type="VI" URL="../Public/VI Tools/Set FP Size.vi"/>
 		</Item>
