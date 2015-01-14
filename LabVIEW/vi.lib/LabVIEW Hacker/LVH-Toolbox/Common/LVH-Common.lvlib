@@ -62,6 +62,7 @@
 			<Item Name="Trim Prefix.vi" Type="VI" URL="../Public/String Tools/Trim Prefix.vi"/>
 		</Item>
 		<Item Name="System" Type="Folder">
+			<Item Name="Copy File Create Dirs.vi" Type="VI" URL="../Copy File Create Dirs.vi"/>
 			<Item Name="Create Folder If DNE.vi" Type="VI" URL="../Public/System/Create Folder If DNE.vi"/>
 			<Item Name="Empty Directory.vi" Type="VI" URL="../Public/System/Empty Directory.vi"/>
 			<Item Name="Kill Process.vi" Type="VI" URL="../Public/System/Kill Process.vi"/>
