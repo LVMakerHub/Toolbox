@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2013-11-01 09:55:51" Modified_Date="2014-06-05 13:14:52" Creator="lvadmin" Comments="" ID="8ebd7e9f142e8904d602578c5b6a0894">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2013-11-01 09:55:51" Modified_Date="2015-01-14 12:15:16" Creator="lvadmin" Comments="" ID="762a655d133e0834d97e06c3fdafdd5c">
   <Library_General_Settings>
     <Package_File_Name>lvh_toolbox</Package_File_Name>
-    <Library_Version>1.1.0.31</Library_Version>
+    <Library_Version>1.1.0.32</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\LVH-Builds\LVH-Toolbox\Installers</Library_Output_Folder>
@@ -32,7 +32,7 @@
       <Copyright/>
       <Packager>Sam Kristoff</Packager>
       <URL>www.labviewhacker.com</URL>
-      <Release_Notes>Added JSON Parser Helper</Release_Notes>
+      <Release_Notes>Added Copy Create Dir Vis for use with LINX 1.2</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
