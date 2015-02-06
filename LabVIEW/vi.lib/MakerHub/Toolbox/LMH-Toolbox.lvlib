@@ -17,41 +17,41 @@
 		</Item>
 		<Item Name="Images" Type="Folder">
 			<Item Name="Icons" Type="Folder">
-				<Item Name="Build Tool Icons.pdn" Type="Document" URL="../Private/Images/Icons/Build Tool Icons.pdn"/>
-				<Item Name="Install Project.ico" Type="Document" URL="../Private/Images/Icons/Install Project.ico"/>
-				<Item Name="Install Project.png" Type="Document" URL="../Private/Images/Icons/Install Project.png"/>
-				<Item Name="Sync Project.ico" Type="Document" URL="../Private/Images/Icons/Sync Project.ico"/>
-				<Item Name="Sync Project.png" Type="Document" URL="../Private/Images/Icons/Sync Project.png"/>
-				<Item Name="Uninstall Project.ico" Type="Document" URL="../Private/Images/Icons/Uninstall Project.ico"/>
-				<Item Name="Uninstall Project.png" Type="Document" URL="../Private/Images/Icons/Uninstall Project.png"/>
+				<Item Name="Build Tool Icons.pdn" Type="Document" URL="/&lt;vilib&gt;/MakerHub/Toolbox/Private/Images/Icons/Build Tool Icons.pdn"/>
+				<Item Name="Install Project.ico" Type="Document" URL="/&lt;vilib&gt;/MakerHub/Toolbox/Private/Images/Icons/Install Project.ico"/>
+				<Item Name="Install Project.png" Type="Document" URL="/&lt;vilib&gt;/MakerHub/Toolbox/Private/Images/Icons/Install Project.png"/>
+				<Item Name="Sync Project.ico" Type="Document" URL="/&lt;vilib&gt;/MakerHub/Toolbox/Private/Images/Icons/Sync Project.ico"/>
+				<Item Name="Sync Project.png" Type="Document" URL="/&lt;vilib&gt;/MakerHub/Toolbox/Private/Images/Icons/Sync Project.png"/>
+				<Item Name="Uninstall Project.ico" Type="Document" URL="/&lt;vilib&gt;/MakerHub/Toolbox/Private/Images/Icons/Uninstall Project.ico"/>
+				<Item Name="Uninstall Project.png" Type="Document" URL="/&lt;vilib&gt;/MakerHub/Toolbox/Private/Images/Icons/Uninstall Project.png"/>
 			</Item>
 			<Item Name="Installers" Type="Folder">
 				<Item Name="Build Tools" Type="Folder">
-					<Item Name="LVH Build Tools Banner.bmp" Type="Document" URL="../Private/Images/Installers/Build Tools/LVH Build Tools Banner.bmp"/>
-					<Item Name="LVH Build Tools Banner.pdn" Type="Document" URL="../Private/Images/Installers/Build Tools/LVH Build Tools Banner.pdn"/>
-					<Item Name="LVH Build Tools Welcome Image.bmp" Type="Document" URL="../Private/Images/Installers/Build Tools/LVH Build Tools Welcome Image.bmp"/>
-					<Item Name="LVH Build Tools Welcome Image.pdn" Type="Document" URL="../Private/Images/Installers/Build Tools/LVH Build Tools Welcome Image.pdn"/>
+					<Item Name="LVH Build Tools Banner.bmp" Type="Document" URL="/&lt;vilib&gt;/MakerHub/Toolbox/Private/Images/Installers/Build Tools/LVH Build Tools Banner.bmp"/>
+					<Item Name="LVH Build Tools Banner.pdn" Type="Document" URL="/&lt;vilib&gt;/MakerHub/Toolbox/Private/Images/Installers/Build Tools/LVH Build Tools Banner.pdn"/>
+					<Item Name="LVH Build Tools Welcome Image.bmp" Type="Document" URL="/&lt;vilib&gt;/MakerHub/Toolbox/Private/Images/Installers/Build Tools/LVH Build Tools Welcome Image.bmp"/>
+					<Item Name="LVH Build Tools Welcome Image.pdn" Type="Document" URL="/&lt;vilib&gt;/MakerHub/Toolbox/Private/Images/Installers/Build Tools/LVH Build Tools Welcome Image.pdn"/>
 				</Item>
 			</Item>
 			<Item Name="UI" Type="Folder">
 				<Item Name="Animations" Type="Folder">
 					<Item Name="Loading" Type="Folder">
 						<Item Name="Green Bars" Type="Folder">
-							<Item Name="1.png" Type="Document" URL="../Private/Images/UI/Animations/Loading/Green Bars/1.png"/>
-							<Item Name="2.png" Type="Document" URL="../Private/Images/UI/Animations/Loading/Green Bars/2.png"/>
-							<Item Name="3.png" Type="Document" URL="../Private/Images/UI/Animations/Loading/Green Bars/3.png"/>
-							<Item Name="4.png" Type="Document" URL="../Private/Images/UI/Animations/Loading/Green Bars/4.png"/>
-							<Item Name="5.png" Type="Document" URL="../Private/Images/UI/Animations/Loading/Green Bars/5.png"/>
-							<Item Name="6.png" Type="Document" URL="../Private/Images/UI/Animations/Loading/Green Bars/6.png"/>
-							<Item Name="7.png" Type="Document" URL="../Private/Images/UI/Animations/Loading/Green Bars/7.png"/>
-							<Item Name="8.png" Type="Document" URL="../Private/Images/UI/Animations/Loading/Green Bars/8.png"/>
+							<Item Name="1.png" Type="Document" URL="/&lt;vilib&gt;/MakerHub/Toolbox/Private/Images/UI/Animations/Loading/Green Bars/1.png"/>
+							<Item Name="2.png" Type="Document" URL="/&lt;vilib&gt;/MakerHub/Toolbox/Private/Images/UI/Animations/Loading/Green Bars/2.png"/>
+							<Item Name="3.png" Type="Document" URL="/&lt;vilib&gt;/MakerHub/Toolbox/Private/Images/UI/Animations/Loading/Green Bars/3.png"/>
+							<Item Name="4.png" Type="Document" URL="/&lt;vilib&gt;/MakerHub/Toolbox/Private/Images/UI/Animations/Loading/Green Bars/4.png"/>
+							<Item Name="5.png" Type="Document" URL="/&lt;vilib&gt;/MakerHub/Toolbox/Private/Images/UI/Animations/Loading/Green Bars/5.png"/>
+							<Item Name="6.png" Type="Document" URL="/&lt;vilib&gt;/MakerHub/Toolbox/Private/Images/UI/Animations/Loading/Green Bars/6.png"/>
+							<Item Name="7.png" Type="Document" URL="/&lt;vilib&gt;/MakerHub/Toolbox/Private/Images/UI/Animations/Loading/Green Bars/7.png"/>
+							<Item Name="8.png" Type="Document" URL="/&lt;vilib&gt;/MakerHub/Toolbox/Private/Images/UI/Animations/Loading/Green Bars/8.png"/>
 						</Item>
 					</Item>
 				</Item>
 			</Item>
 			<Item Name="Wizard" Type="Folder">
-				<Item Name="LVH Wizard Background.pdn" Type="Document" URL="../Private/Images/Wizard/LVH Wizard Background.pdn"/>
-				<Item Name="LVH Wizard Background.png" Type="Document" URL="../Private/Images/Wizard/LVH Wizard Background.png"/>
+				<Item Name="LVH Wizard Background.pdn" Type="Document" URL="/&lt;vilib&gt;/MakerHub/Toolbox/Private/Images/Wizard/LVH Wizard Background.pdn"/>
+				<Item Name="LVH Wizard Background.png" Type="Document" URL="/&lt;vilib&gt;/MakerHub/Toolbox/Private/Images/Wizard/LVH Wizard Background.png"/>
 			</Item>
 		</Item>
 		<Item Name="Installer Tools" Type="Folder">
@@ -79,6 +79,7 @@
 				<Item Name="Archive Directory.vi" Type="VI" URL="../Public/Archiving/Archive Directory.vi"/>
 			</Item>
 			<Item Name="Math" Type="Folder">
+				<Item Name="2s Compliment To Decimal.vi" Type="VI" URL="../Public/Math/2s Compliment To Decimal.vi"/>
 				<Item Name="BCD to DEC.vi" Type="VI" URL="../Public/Math/BCD to DEC.vi"/>
 				<Item Name="DEC to BCD.vi" Type="VI" URL="../Public/Math/DEC to BCD.vi"/>
 				<Item Name="U16 Two&apos;s Compliment To Decimal.vi" Type="VI" URL="../Public/Math/U16 Two&apos;s Compliment To Decimal.vi"/>
