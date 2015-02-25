@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2013-11-01 09:55:51" Modified_Date="2015-02-25 09:54:31" Creator="lvadmin" Comments="" ID="498cdbbad75e3d8dda7f2e09f73b5ed7">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2013-11-01 09:55:51" Modified_Date="2015-02-25 10:54:48" Creator="lvadmin" Comments="" ID="a1a37719a805e6c423c7e84527b4a6e6">
   <Library_General_Settings>
     <Package_File_Name>lvh_toolbox</Package_File_Name>
-    <Library_Version>2.0.0.35</Library_Version>
+    <Library_Version>2.0.0.36</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\Builds\Toolbox\Installers</Library_Output_Folder>
